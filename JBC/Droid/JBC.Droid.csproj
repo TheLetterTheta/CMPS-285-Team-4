@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{80CFFC1D-B224-4212-86AA-CBACA7C98402}</ProjectGuid>
+    <ProjectGuid>{190A9ACD-3E52-4C38-A63A-3696613D6F9D}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>JBC.Droid</RootNamespace>
@@ -84,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JBC\JBC.csproj">
-      <Project>{EAD8C79A-CB3B-4A08-BCB9-0847811986DA}</Project>
+      <Project>{13EC54E0-6A37-4DB9-8EA2-A75EB81C5221}</Project>
       <Name>JBC</Name>
     </ProjectReference>
   </ItemGroup>

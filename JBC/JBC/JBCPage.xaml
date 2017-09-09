@@ -12,5 +12,5 @@
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
     </StackLayout>
-
+    
 </ContentPage>
