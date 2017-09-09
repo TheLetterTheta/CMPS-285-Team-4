@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{242318A7-F36F-4A0D-AB22-8B4EA093438C}</ProjectGuid>
+    <ProjectGuid>{CAC8DCD3-F391-4177-883D-7A3511D965C1}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>JBC.iOS</RootNamespace>
@@ -22,7 +22,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <IOSDebuggerPort>53835</IOSDebuggerPort>
+    <IOSDebuggerPort>20592</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -70,7 +70,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <IOSDebuggerPort>37320</IOSDebuggerPort>
+    <IOSDebuggerPort>39409</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -95,8 +95,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JBC\JBC.csproj">
-      <Project>{9C47C484-426C-479B-9E0F-CCB3BD35AA10}</Project>
+    <ProjectReference Include="..\JBC.csproj">
+      <Project>{13652950-8BA2-44EF-B283-EF5D58988F43}</Project>
       <Name>JBC</Name>
     </ProjectReference>
   </ItemGroup>
