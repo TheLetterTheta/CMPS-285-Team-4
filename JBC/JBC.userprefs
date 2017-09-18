@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{97BB519F-C0F5-4B5D-A1E3-4C091D686756}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="JBC/JBCPage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="JBC/JBCPage.xaml" Line="5" Column="1" />
     </Files>
