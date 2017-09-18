@@ -1,24 +1,10 @@
 ﻿<Properties StartupConfiguration="{97BB519F-C0F5-4B5D-A1E3-4C091D686756}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="JBC/TabbedPages/Videos.xaml.cs">
-    <Files>
-      <File FileName="JBC/JBCPage.xaml" Line="10" Column="35" />
-      <File FileName="JBC/JBCPage.xaml.cs" Line="10" Column="10" />
-      <File FileName="iOS/AppDelegate.cs" Line="19" Column="1" />
-      <File FileName="JBC/TabbedPages/Home.xaml" Line="6" Column="1" />
-      <File FileName="JBC/TabbedPages/Home.xaml.cs" Line="1" Column="1" />
-      <File FileName="JBC/TabbedPages/News.xaml" Line="6" Column="1" />
-      <File FileName="JBC/TabbedPages/News.xaml.cs" Line="1" Column="1" />
-      <File FileName="JBC/TabbedPages/Notes.xaml" Line="6" Column="1" />
-      <File FileName="JBC/TabbedPages/Notes.xaml.cs" Line="1" Column="1" />
-      <File FileName="JBC/TabbedPages/Videos.xaml" Line="6" Column="1" />
-      <File FileName="JBC/TabbedPages/Videos.xaml.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.392DC3F9-692B-4E8F-AD93-0F139A47A09D">
+  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.262B729B-A681-4410-893C-796A1FE32D02">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.JBC.iOS>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
