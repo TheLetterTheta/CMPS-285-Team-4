@@ -2,7 +2,7 @@
 
 namespace JBC
 {
-    public partial class JBCPage : ContentPage
+    public partial class JBCPage : TabbedPage
     {
         public JBCPage()
         {
