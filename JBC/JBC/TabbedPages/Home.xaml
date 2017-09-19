@@ -1,12 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="JBC.Home">
+=======
+<ContentPage Title="Jerusalem Baptist Church" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="JBC.Home">
+>>>>>>> Paul
 
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
             iOS="0, 20, 0, 0"/>
+<<<<<<< HEAD
     </ContentPage.Padding>
     
 	<Label Text="Home"/>
 </ContentPage>
+=======
+        
+    </ContentPage.Padding>
+
+
+    <AbsoluteLayout BackgroundColor="DarkRed" >
+
+        <!--<BoxView Color="Aqua" 
+                 WidthRequest="2" 
+                 HorizontalOptions="Center" 
+                 VerticalOptions="Fill" 
+                 AbsoluteLayout.LayoutBounds="0, 0.7, 1, 1" 
+                 AbsoluteLayout.LayoutFlags="All"/>
+        -->
+        
+        <Label x:Name="thing"
+               Text="Welcome" 
+               FontSize="40" 
+               Style="{StaticResource HomeStyle}"
+               TextColor="Black" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.1" 
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="About Us" 
+                x:Name="btnAboutUs" 
+                BackgroundColor="#4DFFFFFF" 
+                TextColor="White"  
+                Clicked="AboutUs_Clicked" 
+                AbsoluteLayout.LayoutBounds="0.5, 0.65" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="Location" 
+                BackgroundColor="White" 
+                TextColor="Red"
+                Clicked="Location_Clicked"
+                AbsoluteLayout.LayoutBounds="0.5, 0.75" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Label Text="Connect With Us" 
+               FontSize="25" 
+               FontFamily="SinkinSans" 
+               TextColor="Black"
+               AbsoluteLayout.LayoutBounds="0.5, 0.85" 
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <!--<Label Text="Hello Forms with XAML">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <OnPlatform.iOS>SinkinSans</OnPlatform.iOS>
+                    <OnPlatform.Android>SinkinSans.ttf#SinkinSans</OnPlatform.Android>
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+        -->
+
+        <!-- <Label Text="SinkinSans" FontSize="25" HorizontalOptions="Center"/> -->
+
+    </AbsoluteLayout>
+    
+</ContentPage>
+
+>>>>>>> Paul
