@@ -11,8 +11,8 @@
 namespace JBC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Proxy-PC\\Documents\\Github\\CMPS-285-Team-4\\JBC\\JBC\\TabbedPages\\Videos.xam" +
-        "l")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\1 Dev Project Workspace\\GitFiles\\CMPS-285-Team-4-master\\JBC\\JBC\\TabbedPages\\Vi" +
+        "deos.xaml")]
     public partial class Videos : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

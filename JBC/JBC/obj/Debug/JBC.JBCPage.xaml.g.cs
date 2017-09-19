@@ -11,8 +11,9 @@
 namespace JBC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jbw716/Programming/285/CMPS-285-Team-4/JBC/JBC/JBCPage.xaml")]
-    public partial class JBCPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Proxy-PC\\Documents\\285 Project\\CMPS-285-Team-4-master\\CMPS-285-Team-4-ma" +
+        "ster\\JBC\\JBC\\JBCPage.xaml")]
+    public partial class JBCPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

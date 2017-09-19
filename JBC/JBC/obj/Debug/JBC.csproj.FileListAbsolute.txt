@@ -1,20 +1,56 @@
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\JBC.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\JBC.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.csprojResolveAssemblyReference.cache
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.csproj.CoreCompileInputs.cache
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.App.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.JBCPage.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.TabbedPages.Home.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.TabbedPages.News.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.TabbedPages.Notes.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.TabbedPages.Videos.xaml.g.cs
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\JBC\obj\Debug\JBC.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\JBC.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\JBC.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csprojResolveAssemblyReference.cache
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csproj.CoreCompileInputs.cache
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.App.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.JBCPage.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Home.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.News.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Notes.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Videos.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.Location.xaml.g.cs
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.AboutUs.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\JBC.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\JBC.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csprojResolveAssemblyReference.cache
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csproj.CoreCompileInputs.cache
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.App.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.JBCPage.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Home.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.News.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Notes.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Videos.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.Location.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.AboutUs.xaml.g.cs
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.pdb
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.App.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.JBCPage.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Home.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.News.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Notes.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.TabbedPages.Videos.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.Location.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.Home_Pages.AboutUs.xaml.g.cs
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.dll
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\JBC\obj\Debug\JBC.pdb

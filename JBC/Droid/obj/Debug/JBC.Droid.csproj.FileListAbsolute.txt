@@ -1,59 +1,121 @@
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.Droid.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.Droid.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\com.JBC.JBC.apk
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\com.JBC.JBC-Signed.apk
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\FormsViewGroup.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Annotations.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Transition.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\FormsViewGroup.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\JBC.Droid.csprojResolveAssemblyReference.cache
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\JBC.Droid.csproj.CoreCompileInputs.cache
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\JBC.Droid.dll
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\JBC.Droid.pdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\bin\com.JBC.JBC.apk
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\layout\tabbar.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\layout\toolbar.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\values\styles.xml
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\drawable\icon.png
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\drawable-hdpi\icon.png
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\drawable-xhdpi\icon.png
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\R.cs.flag
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\uploadflags.txt
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\bin\Debug\JBC.Droid.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\JBC.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\JBC.Droid.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\Proxy-PC\Documents\Github\CMPS-285-Team-4\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\com.JBC.JBC.apk
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\com.JBC.JBC-Signed.apk
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Annotations.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Transition.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.csprojResolveAssemblyReference.cache
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.csproj.CoreCompileInputs.cache
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.dll
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.pdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\bin\com.JBC.JBC.apk
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\layout\tabbar.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\layout\toolbar.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\values\styles.xml
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable\icon.png
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-hdpi\icon.png
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-xhdpi\icon.png
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\R.cs.flag
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\uploadflags.txt
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\JBC.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\JBC.Droid.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+F:\1 Dev Project Workspace\GitFiles\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\com.JBC.JBC.apk
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\com.JBC.JBC-Signed.apk
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.csproj.CoreCompileInputs.cache
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.dll
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.pdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\bin\com.JBC.JBC.apk
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\values\styles.xml
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\R.cs.flag
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\uploadflags.txt
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\bin\Debug\JBC.Droid.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\JBC.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\JBC.Droid.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Proxy-PC\Documents\285 Project\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.dll
+C:\Users\Paul\Desktop\19SEP2017-RAR\CMPS-285-Team-4-master\CMPS-285-Team-4-master\JBC\Droid\obj\Debug\JBC.Droid.pdb

@@ -1,13 +1,26 @@
-﻿<Properties StartupConfiguration="{C24E1957-FE5A-4F48-8223-D574F80D403E}|Default">
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{97BB519F-C0F5-4B5D-A1E3-4C091D686756}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JBC/TabbedPages/Videos.xaml.cs">
+    <Files>
+      <File FileName="JBC/JBCPage.xaml" Line="10" Column="35" />
+      <File FileName="JBC/JBCPage.xaml.cs" Line="10" Column="10" />
+      <File FileName="iOS/AppDelegate.cs" Line="19" Column="1" />
+      <File FileName="JBC/TabbedPages/Home.xaml" Line="6" Column="1" />
+      <File FileName="JBC/TabbedPages/Home.xaml.cs" Line="1" Column="1" />
+      <File FileName="JBC/TabbedPages/News.xaml" Line="6" Column="1" />
+      <File FileName="JBC/TabbedPages/News.xaml.cs" Line="1" Column="1" />
+      <File FileName="JBC/TabbedPages/Notes.xaml" Line="6" Column="1" />
+      <File FileName="JBC/TabbedPages/Notes.xaml.cs" Line="1" Column="1" />
+      <File FileName="JBC/TabbedPages/Videos.xaml" Line="6" Column="1" />
+      <File FileName="JBC/TabbedPages/Videos.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.63CE802F-225D-4A31-B5AC-FD69A0DCE722">
+  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.392DC3F9-692B-4E8F-AD93-0F139A47A09D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.JBC.iOS>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.JBC.Droid PreferredExecutionTarget="Android.SelectDevice" />
 </Properties>
