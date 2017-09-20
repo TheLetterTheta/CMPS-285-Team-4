@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TabbedPage BarBackgroundColor="#800000"
+<TabbedPage BarBackgroundColor="#990000"
             xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:JBC"
             x:Class="JBC.JBCPage">
 
-    <NavigationPage Title="Home" BarTextColor="White" BarBackgroundColor="#800000">
+    <NavigationPage Title="Home" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Home Title="Jerusalem Baptist Church"/>
@@ -13,7 +13,7 @@
         
     </NavigationPage>
 
-    <NavigationPage Title="Notes" BarTextColor="White" BarBackgroundColor="#800000">
+    <NavigationPage Title="Notes" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Notes Title="Notes"/>
@@ -21,7 +21,7 @@
 
     </NavigationPage>
 
-    <NavigationPage Title="News" BarTextColor="White" BarBackgroundColor="#800000">
+    <NavigationPage Title="News" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:News Title="News"/>
@@ -29,7 +29,7 @@
 
     </NavigationPage>
     
-    <NavigationPage Title="Videos" BarTextColor="White" BarBackgroundColor="#800000">
+    <NavigationPage Title="Videos" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Videos Title="Videos"/>
