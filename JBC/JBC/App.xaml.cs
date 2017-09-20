@@ -9,6 +9,7 @@ namespace JBC
             InitializeComponent();
 
             MainPage = new JBCPage();
+            
         }
 
         protected override void OnStart()
