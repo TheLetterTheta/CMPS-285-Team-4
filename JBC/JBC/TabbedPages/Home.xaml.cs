@@ -11,7 +11,7 @@ namespace JBC
         {
             InitializeComponent();
             image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
-            
+            //welcomeLabel.text = "laldfhltjsldnflah";
         }
         
 

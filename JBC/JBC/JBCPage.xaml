@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TabbedPage BarBackgroundColor="#800000" 
+<TabbedPage BarBackgroundColor="#800000"
             xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:JBC"
             x:Class="JBC.JBCPage">
 
-    <NavigationPage Title="Home" 
-                    BarTextColor="White" 
-                    BarBackgroundColor="#800000">
+    <NavigationPage Title="Home" BarTextColor="White" BarBackgroundColor="#800000">
 
         <x:Arguments>
-            <local:Home/>
+            <local:Home Title="Jerusalem Baptist Church"/>
         </x:Arguments>
         
     </NavigationPage>
+
+    <NavigationPage Title="Notes" BarTextColor="White" BarBackgroundColor="#800000">
+
+        <x:Arguments>
+            <local:Notes Title="Notes"/>
+        </x:Arguments>
+
+    </NavigationPage>
+
+    <NavigationPage Title="News" BarTextColor="White" BarBackgroundColor="#800000">
+
+        <x:Arguments>
+            <local:News Title="News"/>
+        </x:Arguments>
+
+    </NavigationPage>
     
-    <local:Notes Title="Notes"/>
-    <local:News Title="News"/>
-    <local:Videos Title="Videos"/>
+    <NavigationPage Title="Videos" BarTextColor="White" BarBackgroundColor="#800000">
+
+        <x:Arguments>
+            <local:Videos Title="Videos"/>
+        </x:Arguments>
+
+    </NavigationPage>
+    
+    
     
 </TabbedPage>
