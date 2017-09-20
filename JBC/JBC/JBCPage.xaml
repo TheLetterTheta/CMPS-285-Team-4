@@ -5,7 +5,7 @@
             xmlns:local="clr-namespace:JBC"
             x:Class="JBC.JBCPage">
 
-    <NavigationPage Title="Home" BarTextColor="White" BarBackgroundColor="#990000">
+    <NavigationPage x:Name="HomeTabNav" Title="Home" Icon="home.png" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Home Title="Jerusalem Baptist Church"/>
@@ -13,7 +13,7 @@
         
     </NavigationPage>
 
-    <NavigationPage Title="Notes" BarTextColor="White" BarBackgroundColor="#990000">
+    <NavigationPage x:Name="NotesTabNav" Title="Notes" Icon="notes.png" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Notes Title="Notes"/>
@@ -21,7 +21,7 @@
 
     </NavigationPage>
 
-    <NavigationPage Title="News" BarTextColor="White" BarBackgroundColor="#990000">
+    <NavigationPage x:Name="NewsTabNav" Title="News" Icon="rss.png" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:News Title="News"/>
@@ -29,7 +29,7 @@
 
     </NavigationPage>
     
-    <NavigationPage Title="Videos" BarTextColor="White" BarBackgroundColor="#990000">
+    <NavigationPage x:Name="VideosTabNav" Title="Videos" Icon="videos.png" BarTextColor="White" BarBackgroundColor="#990000">
 
         <x:Arguments>
             <local:Videos Title="Videos"/>

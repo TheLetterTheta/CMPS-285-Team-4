@@ -11,13 +11,28 @@
 namespace JBC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\1 Dev Project Workspace\\GitExtraDesktopFiles\\CMPS-285-Team-4\\JBC\\JBC\\JBCPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jbw716/Programming/285/CMPS-285-Team-4/JBC/JBC/JBCPage.xaml")]
     public partial class JBCPage : global::Xamarin.Forms.TabbedPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage HomeTabNav;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage NotesTabNav;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage NewsTabNav;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage VideosTabNav;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(JBCPage));
+            HomeTabNav = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "HomeTabNav");
+            NotesTabNav = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "NotesTabNav");
+            NewsTabNav = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "NewsTabNav");
+            VideosTabNav = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "VideosTabNav");
         }
     }
 }

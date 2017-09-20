@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>JBC.Droid</RootNamespace>
     <AssemblyName>JBC.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -134,6 +134,11 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\news.png" />
+    <AndroidResource Include="Resources\drawable\notes.png" />
+    <AndroidResource Include="Resources\drawable\rss.png" />
+    <AndroidResource Include="Resources\drawable\videos.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\jbcpcbackground.jpg" />

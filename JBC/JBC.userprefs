@@ -1,17 +1,19 @@
-﻿<Properties StartupConfiguration="{97BB519F-C0F5-4B5D-A1E3-4C091D686756}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="JBC/Home Pages/AboutUs.xaml">
+﻿<Properties StartupConfiguration="{378A4E95-3CAC-4C74-ADAF-270C14C62BA4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JBC/TabbedPages/Home.xaml">
     <Files>
-      <File FileName="JBC/Home Pages/AboutUs.xaml" Line="14" Column="9" />
-      <File FileName="JBC/Home Pages/AboutUs.xaml.cs" Line="21" Column="2" />
+      <File FileName="JBC/JBCPage.xaml" Line="42" Column="14" />
+      <File FileName="JBC/TabbedPages/Home.xaml" Line="73" Column="1" />
+      <File FileName="JBC/TabbedPages/Home.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.392DC3F9-692B-4E8F-AD93-0F139A47A09D">
+  <MonoDevelop.Ide.ItemProperties.JBC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.78D20E11-C77E-4DC8-AEB1-00F7D8AC9255">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.JBC.iOS>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.JBC.Droid PreferredExecutionTarget="Android.988964434657524430" />
 </Properties>
