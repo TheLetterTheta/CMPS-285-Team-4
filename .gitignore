@@ -38,3 +38,5 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+JBC/JBC.userprefs
+JBC/Droid/obj/Debug/build.props
