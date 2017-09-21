@@ -12,8 +12,12 @@ namespace JBC
             InitializeComponent();
 
             WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
+
+            btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
+            btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
+
             //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
-            //welcomeLabel.text = "laldfhltjsldnflah";
+            //welcomeLabel.Text = "laldfhltjsldnflah";
         }
         
 
@@ -27,5 +31,14 @@ namespace JBC
             await Navigation.PushAsync(new Location());
         }
 
+        private void FBlogo_Clicked(object sender, EventArgs e)
+        {
+            //code to go to facebook here
+        }
+
+        private void JBClogo_Clicked(object sender, EventArgs e)
+        {
+            //code to go to JBC website here
+        }
     }
 }

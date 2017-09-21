@@ -53,6 +53,33 @@
                AbsoluteLayout.LayoutBounds="0.5, 0.85" 
                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
+        <Button Text="Location" 
+                BackgroundColor="White" 
+                TextColor="Red"
+                Clicked="Location_Clicked"
+                AbsoluteLayout.LayoutBounds="0.5, 0.75" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Image="FBlogo.png"
+                x:Name="btnFBlogo"
+                HeightRequest="40"
+                WidthRequest="40"
+                BackgroundColor="White"
+                Clicked="FBlogo_Clicked"
+                AbsoluteLayout.LayoutBounds="0.40, 0.95" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Image="JBClogo.png"
+                x:Name="btnJBClogo"
+                HeightRequest="50"
+                WidthRequest="50"
+                BackgroundColor="#990000"
+                Clicked="JBClogo_Clicked"
+                AbsoluteLayout.LayoutBounds="0.60, 0.959" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+
+
         <!--<Label Text="Hello Forms with XAML">
             <Label.FontFamily>
                 <OnPlatform x:TypeArguments="x:String">
