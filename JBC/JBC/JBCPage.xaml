@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TabbedPage BarBackgroundColor="#990000"
-            xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:JBC"
-            x:Class="JBC.JBCPage">
+            x:Class="JBC.JBCPage"
+            Title="Jerusalem Baptist Church">
 
-    <NavigationPage x:Name="HomeTabNav" Title="Home" Icon="home.png" BarTextColor="White" BarBackgroundColor="#990000">
-
-        <x:Arguments>
-            <local:Home Title="Jerusalem Baptist Church"/>
-        </x:Arguments>
-        
-    </NavigationPage>
-
-    <NavigationPage x:Name="NotesTabNav" Title="Notes" Icon="notes.png" BarTextColor="White" BarBackgroundColor="#990000">
-
-        <x:Arguments>
-            <local:Notes Title="Notes"/>
-        </x:Arguments>
-
-    </NavigationPage>
-
-    <NavigationPage x:Name="NewsTabNav" Title="News" Icon="rss.png" BarTextColor="White" BarBackgroundColor="#990000">
-
-        <x:Arguments>
-            <local:News Title="News"/>
-        </x:Arguments>
-
-    </NavigationPage>
-    
-    <NavigationPage x:Name="VideosTabNav" Title="Videos" Icon="videos.png" BarTextColor="White" BarBackgroundColor="#990000">
-
-        <x:Arguments>
-            <local:Videos Title="Videos"/>
-        </x:Arguments>
-
-    </NavigationPage>
-    
-    
+    <local:Home Title="Home" Icon="home.png"/>
+    <local:Notes Title="Notes" Icon="notes.png"/>
+    <local:News Title="News" Icon="rss.png"/>
+    <local:Videos Title="Videos" Icon="videos.png"/>
     
 </TabbedPage>

@@ -15,10 +15,10 @@ namespace JBC
             //Children.Add(new Notes());
             //Children.Add(new News());
             //Children.Add(new Videos());
-            if(Device.RuntimePlatform == Device.iOS)
-                BarBackgroundColor = Color.White;
-            else
-                BarBackgroundColor = Color.FromHex("#990000");
+            //if(Device.RuntimePlatform == Device.iOS)
+            //    BarBackgroundColor = Color.White;
+            //else
+            //    BackgroundColor = Color.FromHex("#990000");
         }
     }
 }

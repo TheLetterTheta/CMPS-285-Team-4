@@ -8,7 +8,11 @@ namespace JBC
         {
             InitializeComponent();
 
-            MainPage = new JBCPage();
+            MainPage = new NavigationPage(new JBCPage())
+            {
+                BarBackgroundColor = Color.FromHex("#990000"),
+                BarTextColor = Color.White
+            };
             
         }
 
