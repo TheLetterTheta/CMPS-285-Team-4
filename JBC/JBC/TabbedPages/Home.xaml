@@ -55,20 +55,16 @@
 
         <Button Image="FBlogo.png"
                 x:Name="btnFBlogo"
-                HeightRequest="40"
-                WidthRequest="40"
-                BackgroundColor="White"
+                BackgroundColor="#3b5998"
                 Clicked="FBlogo_Clicked"
-                AbsoluteLayout.LayoutBounds="0.40, 0.95" 
+                AbsoluteLayout.LayoutBounds="0.40, 0.96" 
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
         <Button Image="JBClogo.png"
                 x:Name="btnJBClogo"
-                HeightRequest="50"
-                WidthRequest="50"
                 BackgroundColor="#990000"
                 Clicked="JBClogo_Clicked"
-                AbsoluteLayout.LayoutBounds="0.60, 0.959" 
+                AbsoluteLayout.LayoutBounds="0.60, 0.96" 
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
 

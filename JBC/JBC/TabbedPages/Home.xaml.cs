@@ -15,6 +15,18 @@ namespace JBC
 
             btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
             btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
+            if(Device.RuntimePlatform == Device.iOS){
+                btnFBlogo.HeightRequest = 50;
+				btnFBlogo.WidthRequest = 50;
+				btnJBClogo.HeightRequest = 50;
+				btnJBClogo.WidthRequest = 50;
+            }
+            else{
+                btnFBlogo.HeightRequest = 55;
+                btnFBlogo.WidthRequest = 55;
+                btnJBClogo.HeightRequest = 55;
+                btnJBClogo.WidthRequest = 55;
+            }
 
             //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
             //welcomeLabel.Text = "laldfhltjsldnflah";
