@@ -18,11 +18,11 @@ namespace JBC
             InitializeComponent();
 
             MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(
-                        new Position(30.45, -90.54),
-                        Distance.FromMiles(0.5)));
+                        new Position(30.45150099999997, -90.5389680000001),
+                        Distance.FromMiles(0.25)));
 
 			// Latitude, Longitude of the church
-			var church = new Position(30.45, -90.54);
+			var church = new Position(30.45150099999997, -90.5389680000001);
 
             //Add pin at the church's latitude and longitude
 			var pin = new Pin
@@ -30,7 +30,7 @@ namespace JBC
 				Type = PinType.Place,
 				Position = church,
 				Label = "Jerusalem Baptist Church",
-				Address = "11131 Jerusalem Baptist Church Rd. Hammond, LA 70403"
+				Address = "11109 Jerusalem Baptist Church Rd. Hammond, LA 70403"
 			};
 
 			pin.Clicked += (sender, args) => {
@@ -38,12 +38,12 @@ namespace JBC
                 if (Device.RuntimePlatform == Device.iOS)
 				{
 					// opens Apple Maps app directly
-					Device.OpenUri(new Uri("http://maps.apple.com/?q=11131+Jerusalem+Baptist+Church+Rd.+Hammond,+LA+70403"));
+					Device.OpenUri(new Uri("http://maps.apple.com/?q=11109+Jerusalem+Church+Rd.+Hammond,+LA+70403"));
 				}
                 else if (Device.RuntimePlatform == Device.Android)
 				{
 					// opens Google Maps app directly
-					Device.OpenUri(new Uri("geo:0,0?q=11131+Jerusalem+Baptist+Church+Rd.+Hammond,+LA+70403"));
+					Device.OpenUri(new Uri("geo:0,0?q=11109+Jerusalem+Church+Rd.+Hammond,+LA+70403"));
 
 				}
 

@@ -38,19 +38,37 @@ namespace JBC
             await Navigation.PushAsync(new AboutUs());
         }
 
-        async void Location_Clicked(object sender, EventArgs e)
+        /*async void Location_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Location());
+			await Navigation.PushAsync(new Location());
+        }*/
+
+        void Location_Clicked(object sender, EventArgs e){
+            
+			if (Device.RuntimePlatform == Device.iOS)
+			{
+				// opens Apple Maps app directly
+				Device.OpenUri(new Uri("http://maps.apple.com/?q=11109+Jerusalem+Church+Rd.+Hammond,+LA+70403"));
+			}
+			else if (Device.RuntimePlatform == Device.Android)
+			{
+				// opens Google Maps app directly
+				Device.OpenUri(new Uri("geo:0,0?q=11109+Jerusalem+Church+Rd.+Hammond,+LA+70403"));
+
+			}
+
         }
 
         private void FBlogo_Clicked(object sender, EventArgs e)
         {
             //code to go to facebook here
+            Device.OpenUri(new Uri("https://www.facebook.com/jbcpumkincenter"));
         }
 
         private void JBClogo_Clicked(object sender, EventArgs e)
         {
             //code to go to JBC website here
+            Device.OpenUri(new Uri("http://jbcpc.org"));
         }
     }
 }
