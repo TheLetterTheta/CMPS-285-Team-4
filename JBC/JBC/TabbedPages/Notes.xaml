@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="JBC.Notes">
-    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <WebView Source="http://jbcpc.org/sermon_notes/" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-    </StackLayout>
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <WebView x:Name="directoryView" Source="http://jbcpc.org/sermon_notes/" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0, 0, 1, 1"/>
+    </AbsoluteLayout>
 </ContentPage>

@@ -43,6 +43,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\Dr._Phil__Kim_Weaver.jpg" />
+    <EmbeddedResource Include="TabbedPages\Notes_View.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home Pages\AboutUs.xaml.cs">
@@ -69,6 +72,9 @@
     </Compile>
     <Compile Include="TabbedPages\Videos.xaml.cs">
       <DependentUpon>Videos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabbedPages\Notes_View.xaml.cs">
+      <DependentUpon>Notes_View.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
