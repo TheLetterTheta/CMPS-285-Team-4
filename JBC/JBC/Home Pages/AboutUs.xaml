@@ -2,13 +2,37 @@
 <ContentPage Title="About Us" 
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="JBC.AboutUs">
-    
-       <StackLayout Padding="20, 0, 20, 0"
+             x:Class="JBC.AboutUs"
+             Padding="20, 0, 20, 0">
+
+       <ScrollView>
+         <StackLayout 
             HorizontalOptions="CenterAndExpand">
-            <ScrollView>
-                <Label x:Name="AboutLabel" Margin="20" FontSize="Small" TextColor="Black" />
-            </ScrollView>
-        </StackLayout>
+           
+                <Label Text="About Us" 
+                    FontSize="35" 
+                    FontFamily="SinkinSans" 
+                    TextColor="Black" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+            
+                <Label x:Name="AboutLabel"  
+                    FontSize="15"
+                    FontFamily="SinkinSans" 
+                    TextColor="Black" />
+            
+                <Label Text="SermonTimes" 
+                    FontSize="35"
+                    FontFamily="SinkinSans" 
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label x:Name="TimesLabel"
+                    FontSize="15"
+                    FontFamily="SinkinSans"
+                    TextColor="Black" />
+         </StackLayout>
+       </ScrollView>
 
 </ContentPage>
