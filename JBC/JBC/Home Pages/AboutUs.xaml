@@ -32,6 +32,20 @@
                     FontSize="15"
                     FontFamily="SinkinSans"
                     TextColor="Black" />
+
+                <Label Text="Find Us" 
+                    FontSize="35" 
+                    FontFamily="SinkinSans" 
+                    TextColor="Black" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label x:Name="AddressLabel"
+                    FontSize="15"  
+                    FontFamily="SinkinSans"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
          </StackLayout>
        </ScrollView>
 
