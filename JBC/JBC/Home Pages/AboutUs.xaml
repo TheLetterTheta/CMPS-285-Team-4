@@ -25,18 +25,6 @@
                     HeightRequest="125"/>
 
                 <Label Text=""/>
-             
-                <Label Text="SermonTimes" 
-                    FontSize="35"
-                    FontFamily="SinkinSans" 
-                    TextColor="Black"
-                    VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center"/>
-
-                <Label x:Name="TimesLabel"
-                    FontSize="15"
-                    FontFamily="SinkinSans"
-                    TextColor="Black" />
 
                 <Label Text="Find Us" 
                     FontSize="35" 
@@ -51,6 +39,18 @@
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
+             
+                <Label Text="SermonTimes" 
+                    FontSize="35"
+                    FontFamily="SinkinSans" 
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label x:Name="TimesLabel"
+                    FontSize="15"
+                    FontFamily="SinkinSans"
+                    TextColor="Black" />
             
                 <Label Text="Contact Us" 
                     FontSize="35" 
