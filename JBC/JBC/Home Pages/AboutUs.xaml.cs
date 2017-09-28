@@ -19,6 +19,8 @@ namespace JBC
             TimesLabel.Text = "Sunday:\n\t-Sunday School at 9:15am\n\t-Worship at 10:30am\n\t-Adult Bible Study & Prayer at 6:00pm\n\nWednesday:\n\t-Prayer Meeting at 6:30pm\n\t-Youth Service at 6:30pm";
             AddressLabel.Text = "11109 Jerusalem Baptist Church Road Hammond, Louisiana 70403";
             Pastor.Source = ImageSource.FromResource("JBC.Images.Dr._Phil__Kim_Weaver.jpg");
+            OfficeHoursLabel.Text = "Monday thru Thursday-\n\t9:00am - 12:00pm and 1:00pm - 3:00pm\nFriday-\n\t9:00am - 12:00pm";
+            NumberLabel.Text = "Phone: (225) 294-2001\nFax: (225) 294-2020";
         }
     }
 }

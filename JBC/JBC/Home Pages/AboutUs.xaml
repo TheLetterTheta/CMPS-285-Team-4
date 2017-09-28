@@ -51,6 +51,32 @@
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
+            
+                <Label Text="Contact Us" 
+                    FontSize="35" 
+                    FontFamily="SinkinSans" 
+                    TextColor="Black" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label Text="Office Hours:"
+                    FontSize="15"
+                    FontFamily="SimkinSans"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label x:Name="OfficeHoursLabel"
+                    FontSize="15"
+                    FontFamily="SinkinSans"
+                    TextColor="Black" />
+
+                 <Label x:Name="NumberLabel"
+                    FontSize="15"  
+                    FontFamily="SinkinSans"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
          </StackLayout>
        </ScrollView>
 
