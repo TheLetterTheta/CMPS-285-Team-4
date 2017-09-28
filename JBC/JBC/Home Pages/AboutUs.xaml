@@ -21,6 +21,11 @@
                     FontFamily="SinkinSans" 
                     TextColor="Black" />
             
+                <Image x:Name="Pastor"
+                    HeightRequest="125"/>
+
+                <Label Text=""/>
+             
                 <Label Text="SermonTimes" 
                     FontSize="35"
                     FontFamily="SinkinSans" 
