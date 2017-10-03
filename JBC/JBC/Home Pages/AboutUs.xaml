@@ -6,78 +6,102 @@
              Padding="20, 0, 20, 0">
 
        <ScrollView>
-         <StackLayout 
+        <StackLayout 
             HorizontalOptions="CenterAndExpand">
-           
-                <Label Text="About Us" 
+
+            <Label Text="About Us" 
                     FontSize="35" 
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
-            
-                <Label x:Name="AboutLabel"  
+
+            <Label x:Name="AboutLabel"  
                     FontSize="15"
                     FontFamily="SinkinSans" 
                     TextColor="Black" />
-            
-                <Image x:Name="Pastor"
-                    HeightRequest="125"/>
 
-                <Label Text=""/>
+            <Image x:Name="Pastor"
+                    HeightRequest="125" />
 
-                <Label Text="Find Us" 
+            <BoxView Color="#800000" 
+                 HeightRequest="5"
+                 HorizontalOptions="Fill" 
+                 VerticalOptions="Center" 
+                 />
+
+
+
+            <Label Text="Find Us" 
                     FontSize="35" 
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
-                <Label x:Name="AddressLabel"
+            <Label x:Name="AddressLabel"
                     FontSize="15"  
                     FontFamily="SinkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
-             
-                <Label Text="SermonTimes" 
-                    FontSize="35"
-                    FontFamily="SinkinSans" 
-                    TextColor="Black"
-                    VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center"/>
 
-                <Label x:Name="TimesLabel"
-                    FontSize="15"
-                    FontFamily="SinkinSans"
-                    TextColor="Black" />
-            
-                <Label Text="Contact Us" 
+            <BoxView Color="#800000" 
+                 HeightRequest="5"
+                 HorizontalOptions="Fill" 
+                 VerticalOptions="Center" 
+                 />
+
+
+            <Label Text="Contact Us" 
                     FontSize="35" 
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
-                <Label Text="Office Hours:"
+            <Label Text="Office Hours:"
                     FontSize="15"
                     FontFamily="SimkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
-                <Label x:Name="OfficeHoursLabel"
+            <Label x:Name="OfficeHoursLabel"
                     FontSize="15"
                     FontFamily="SinkinSans"
-                    TextColor="Black" />
+                    TextColor="Black" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
 
-                 <Label x:Name="NumberLabel"
+            <Label x:Name="NumberLabel"
                     FontSize="15"  
                     FontFamily="SinkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
-         </StackLayout>
-       </ScrollView>
+
+
+            <BoxView Color="#800000" 
+                 HeightRequest="5"
+                 HorizontalOptions="Fill" 
+                 VerticalOptions="Center" 
+                 />
+
+            <Label Text="Sermon Times" 
+                    FontSize="35"
+                    FontFamily="SinkinSans" 
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="TimesLabel"
+                    FontSize="15"
+                    FontFamily="SinkinSans"
+                    TextColor="Black" 
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
