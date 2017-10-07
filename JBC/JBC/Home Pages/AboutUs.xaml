@@ -10,14 +10,20 @@
             HorizontalOptions="CenterAndExpand">
 
             <Label Text="About Us" 
-                    FontSize="35" 
+                    FontSize="Large" 
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
+                    <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
+                </OnPlatform>
+                </Label.FontFamily>
+            </Label>
 
-            <Label x:Name="AboutLabel"  
-                    FontSize="15"
+            <Label x:Name="AboutLabel"
                     FontFamily="SinkinSans" 
                     TextColor="Black" />
 
@@ -37,7 +43,14 @@
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center"/>
+                    HorizontalTextAlignment="Center">
+                <Label.FontFamily>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
+                        <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
+                    </OnPlatform>
+                </Label.FontFamily>
+            </Label>
 
             <Label x:Name="AddressLabel"
                     FontSize="15"  

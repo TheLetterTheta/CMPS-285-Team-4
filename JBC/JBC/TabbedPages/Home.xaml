@@ -18,19 +18,25 @@
                  AbsoluteLayout.LayoutBounds="0, 0.7, 1, 1" 
                  AbsoluteLayout.LayoutFlags="All"/>
         -->
-        
+
         <Label Text="Welcome" 
-               FontSize="40" 
-               FontFamily="SinkinSans" 
-               TextColor="Black" 
-               AbsoluteLayout.LayoutBounds="0.5, 0.05" 
-               AbsoluteLayout.LayoutFlags="PositionProportional"/>
-        
-        <Label x:Name="WelcomeLabel" Margin="20" FontSize="Small"
-               FontFamily="SinkinSans" 
-               TextColor="Black" 
-               AbsoluteLayout.LayoutBounds="0.5, 0.22" 
-               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+               FontSize="Large" 
+               HorizontalOptions="Center" 
+               TextColor="Black"
+               AbsoluteLayout.LayoutBounds="0.5, 0.04" 
+               AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label.FontFamily> <!--How to customize font.-->
+                <OnPlatform x:TypeArguments="x:String">
+                    <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
+                    <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <Label x:Name="WelcomeLabel" Margin="35" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               FontFamily="SinkinSans"/>
        
         <Button Text="About Us" 
                 x:Name="btnAboutUs" 
@@ -48,11 +54,21 @@
                 AbsoluteLayout.LayoutFlags="All"/>
 
         <Label Text="Connect With Us" 
-               FontSize="25" 
-               FontFamily="SinkinSans" 
+               FontSize="Large" 
+               HorizontalOptions="Center" 
                TextColor="Black"
                AbsoluteLayout.LayoutBounds="0.5, 0.8" 
-               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+               AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
+                    <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+        <Label x:Name="Connectlabel" Margin="20"
+               FontFamily="SinkinSans"/>
 
         <Button Image="FBlogo.png"
                 x:Name="btnFBlogo"
