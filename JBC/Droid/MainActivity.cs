@@ -7,7 +7,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Java.Security;
 
 namespace JBC.Droid
 {
@@ -25,21 +24,6 @@ namespace JBC.Droid
             global::Xamarin.FormsMaps.Init(this, bundle);
 
             LoadApplication(new App());
-
-
-
-
-            /*   ---Generates Keyhash For AppID
-            PackageInfo info = this.PackageManager.GetPackageInfo("com.JBC.JBC", PackageInfoFlags.Signatures);
-            foreach (Android.Content.PM.Signature signature in info.Signatures)
-            {
-                MessageDigest md = MessageDigest.GetInstance("SHA");
-                md.Update(signature.ToByteArray());
-
-                string keyhash = Convert.ToBase64String(md.Digest());
-                Console.WriteLine("KeyHash:", keyhash);
-            }
-            */
         }
     }
 }

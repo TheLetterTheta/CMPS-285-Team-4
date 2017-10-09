@@ -18,8 +18,6 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,18 +40,6 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bolts.AppLinks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bolts.1.4.0.1\lib\MonoAndroid403\Bolts.AppLinks.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolts.Tasks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bolts.1.4.0.1\lib\MonoAndroid403\Bolts.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="ExoPlayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xam.Plugins.Android.ExoPlayer.2.0.4.1\lib\MonoAndroid\ExoPlayer.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ZXing.Core, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Google.ZXing.Core.3.3.0\lib\MonoAndroid\Google.ZXing.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -69,9 +55,6 @@
     </Reference>
     <Reference Include="Xamarin.Android.Support.Core.Utils">
       <HintPath>..\packages\Xamarin.Android.Support.Core.Utils.25.4.0.2\lib\MonoAndroid70\Xamarin.Android.Support.Core.Utils.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Android.Support.CustomTabs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\lib\MonoAndroid70\Xamarin.Android.Support.CustomTabs.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Media.Compat">
       <HintPath>..\packages\Xamarin.Android.Support.Media.Compat.25.4.0.2\lib\MonoAndroid70\Xamarin.Android.Support.Media.Compat.dll</HintPath>
@@ -109,26 +92,8 @@
     <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
       <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.25.4.0.2\lib\MonoAndroid70\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Facebook, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Facebook.Android.4.26.0\lib\MonoAndroid70\Xamarin.Facebook.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Facebook.AudienceNetwork, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Facebook.AudienceNetwork.Android.4.26.0\lib\MonoAndroid70\Xamarin.Facebook.AudienceNetwork.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Ads, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Ads.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Ads.Lite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Lite.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Ads.Lite.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Basement">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Basement.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Clearcut, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Clearcut.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Clearcut.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Gass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Gass.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Gass.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Tasks">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
@@ -208,12 +173,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\FBlogo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="facebookandroid">
-      <Visible>False</Visible>
-      <Version>4.26.0.0</Version>
-    </XamarinComponentReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Core.UI.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Core.UI.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Core.UI.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Core.UI.targets')" />
@@ -236,19 +196,4 @@
   <Import Project="..\packages\Xamarin.GooglePlayServices.Maps.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Maps.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Maps.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Maps.targets')" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.targets')" />
-  <Import Project="..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets" Condition="Exists('..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.CustomTabs.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.Lite.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Lite.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.Lite.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Gass.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Gass.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Gass.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Gass.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Clearcut.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Clearcut.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Clearcut.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Clearcut.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.targets'))" />
-  </Target>
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Lite.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.Lite.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.Lite.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Gass.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Gass.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Gass.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Gass.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Clearcut.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Clearcut.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Clearcut.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Clearcut.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Ads.targets')" />
 </Project>
