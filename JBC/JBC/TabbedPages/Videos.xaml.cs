@@ -10,6 +10,7 @@ namespace JBC
         public Videos()
         {
             InitializeComponent();
+           // var contentPage = new ContentPage(YoutubeViewPage);
         }
     }
 }
