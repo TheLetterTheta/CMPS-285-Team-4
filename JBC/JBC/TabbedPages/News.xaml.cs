@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace JBC
 {
@@ -10,11 +11,35 @@ namespace JBC
 
             var fb_html = new HtmlWebViewSource();
 
-            fb_html.Html = "<html><body><iframe src=\"https://www.powr.io/plugins/facebook-feed/view?unique_label=421d8127_1508346868&external_type=iframe\" width=\"100%\" height=\"2500\" frameborder=\"0\"></iframe></body></html>";
-
             //FBFeed.Source = fb_html;
 
-            FBFeed.Source = "https://www.powr.io/plugins/facebook-feed/view?unique_label=421d8127_1508346868&external_type=iframe";
+            //FBFeed.Source = "https://www.powr.io/plugins/facebook-feed/view?unique_label=421d8127_1508346868&external_type=iframe";
+
+            FBFeed.Source = "https://feed.mikle.com/widget/v2/50861/";
+
+            FBFeed.Navigated += (s, e) => {
+
+                FBFeed.Navigating += (sender, eArg) =>
+                {
+                    eArg.Cancel = true;
+                    var uri = new Uri(eArg.Url);
+                    Device.OpenUri(uri);
+                };
+
+            };
+
+            /*FBFeed.Source = "https://www.juicer.io/api/feeds/jbcpumkincenter/iframe";
+
+            FBFeed.Navigated += (s, e) => {
+
+                FBFeed.Navigating += (sender, eArg) =>
+                {
+                    eArg.Cancel = true;
+                    var uri = new Uri(eArg.Url);
+                    Device.OpenUri(uri);
+                };
+
+            };*/
         }
     }
 }

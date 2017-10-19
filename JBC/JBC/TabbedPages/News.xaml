@@ -8,7 +8,7 @@
             iOS="0, 20, 0, 0"/>-->
     <!--</ContentPage.Padding>-->
 
-    <WebView x:Name="FBFeed" HorizontalOptions="FillAndExpand"/>
+    <WebView x:Name="FBFeed" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
 
     <!--<Label Text="More content will be added soon..."/>-->
 </ContentPage>
