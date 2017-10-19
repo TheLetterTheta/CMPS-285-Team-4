@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JBC.Videos">
 
-    <ContentPage.Padding>
+    <!--<ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
             iOS="0, 20, 0, 0"/>
-    </ContentPage.Padding>
+    </ContentPage.Padding>-->
 
-    <Label Text="Your videos will be added soon..."/>
+    <WebView x:Name="videoWV" HorizontalOptions="FillAndExpand"/>
+    <!--<WebView Source="https://www.youtube.com/playlist?list=PL_nFiFS-NjOz97uPy8QdrTPGzQTM2whgY"/>-->
+    <!--<Label Text="Your videos will be added soon..."/>-->
 </ContentPage>
