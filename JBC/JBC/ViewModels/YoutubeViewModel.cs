@@ -15,18 +15,18 @@ namespace JBC.ViewModels
     {
 
         // use this link to get an api_key : https://console.developers.google.com/apis/api/youtube/
-        private const string ApiKey = "AIzaSyCUY1jjjo-DyUXFkpYsITi0Hed-qI5QOOY";
+        private const string ApiKey = "AIzaSyA8csCdV7DgJkbca6JxyTYNVX0lBMaJTf4";
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.videos.list 
         private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=20&channelId="
-            + "UCCYR9GpcE3skVnyMU8Wx1kQ"
+            + "UCiwhvfCZlma2rttkO9nTYww"
             //+ "Your_ChannelId"
             + "&key="
             + ApiKey;
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.playlistItems.list
         private string apiUrlForPlaylist = "https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=20&playlistId="
-            + "PLpbcUe4chE7-uGCH1S0-qeuCWOMa2Tmam"
+            + "PL_nFiFS-NjOz97uPy8QdrTPGzQTM2whgY"
             //+ "Your_PlaylistId"
             + "&key="
             + ApiKey;
@@ -176,7 +176,7 @@ namespace JBC.ViewModels
             }
             catch (Exception exception)
             {
-
+                
             }
             return youtubeItems;
         }
