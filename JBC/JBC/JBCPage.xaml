@@ -8,6 +8,6 @@
     <local:Home Title="Home" Icon="home.png"/>
     <local:Notes Title="Notes" Icon="notes.png"/>
     <local:News Title="News" Icon="rss.png"/>
-    <local:Videos Title="Videos" Icon="videos.png"/>
-    
+    <local:YoutubeViewPage Title="Videos" Icon="videos.png"/>
+
 </TabbedPage>

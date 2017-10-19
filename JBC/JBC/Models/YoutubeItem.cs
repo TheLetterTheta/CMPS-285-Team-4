@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XamarinForms.Models
+namespace JBC.Models
 {
     public class YoutubeItem
     {

@@ -1,8 +1,8 @@
 ﻿using Xamarin.Forms;
-using XamarinForms.Models;
-using XamarinForms.ViewModels;
+using JBC.Models;
+using JBC.ViewModels;
 
-namespace XamarinForms.View
+namespace JBC
 {
     public class YoutubeViewPage : ContentPage
     {

@@ -7,19 +7,19 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using XamarinForms.Models;
+using JBC.Models;
 
-namespace XamarinForms.ViewModels
+namespace JBC.ViewModels
 {
     public class YoutubeViewModel : INotifyPropertyChanged
     {
 
         // use this link to get an api_key : https://console.developers.google.com/apis/api/youtube/
-        private const string ApiKey = "AIzaSyBbi6dGtQ5HeuRs9AnKvE0Ek2Cbxk-zWKE";
+        private const string ApiKey = "AIzaSyCUY1jjjo-DyUXFkpYsITi0Hed-qI5QOOY";
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.videos.list 
         private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=20&channelId="
-            + "UCIuTSqYy1Y1V8MvMmPvklqA"
+            + "UCCYR9GpcE3skVnyMU8Wx1kQ"
             //+ "Your_ChannelId"
             + "&key="
             + ApiKey;
@@ -176,8 +176,9 @@ namespace XamarinForms.ViewModels
             }
             catch (Exception exception)
             {
-                return youtubeItems;
+
             }
+            return youtubeItems;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
