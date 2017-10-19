@@ -19,11 +19,15 @@ namespace JBC
 
             FBFeed.Navigated += (s, e) => {
 
-                FBFeed.Navigating += (sender, eArg) =>
+                FBFeed.Navigating += async (sender, eArg) =>
                 {
                     eArg.Cancel = true;
                     var uri = new Uri(eArg.Url);
-                    Device.OpenUri(uri);
+                    var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+
+                    if (answer)
+                        Device.OpenUri(uri);
+                    
                 };
 
             };
