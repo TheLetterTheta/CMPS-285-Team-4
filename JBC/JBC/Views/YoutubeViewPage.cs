@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using JBC.Models;
 using JBC.ViewModels;
+using System;
 
 namespace JBC
 {
@@ -141,9 +142,14 @@ namespace JBC
             };
         }
 
-        private void ListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        private async void ListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
         {
             var youtubeItem = itemTappedEventArgs.Item as YoutubeItem;
+
+            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+
+            if (answer)
+                Device.OpenUri(new Uri("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId));
 
             // You can use Plugin.Share nuget package to open video in browser
             //CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);

@@ -15,11 +15,14 @@ namespace JBC.ViewModels
     {
 
         // use this link to get an api_key : https://console.developers.google.com/apis/api/youtube/
-        private const string ApiKey = "AIzaSyA8csCdV7DgJkbca6JxyTYNVX0lBMaJTf4";
+        private const string ApiKey = "AIzaSyCutRa7oVeMUmkQZkZRyPmnCrY17-qo-80";
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.videos.list 
-        private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=20&channelId="
-            + "UCiwhvfCZlma2rttkO9nTYww"
+
+        //private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&channelId=UCIuTSqYy1Y1V8MvMmPvklqA&maxResults=20&key=AIzaSyCutRa7oVeMUmkQZkZRyPmnCrY17-qo-80";
+
+        private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=10&order=date&channelId="
+            + "UCIuTSqYy1Y1V8MvMmPvklqA"
             //+ "Your_ChannelId"
             + "&key="
             + ApiKey;
@@ -32,6 +35,9 @@ namespace JBC.ViewModels
             + ApiKey;
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.search.list
+
+        //private string apiUrlForVideosDetails = "https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=7tmnXaywKv0,VmRyBiGrLfk,ddoiGjKw8zs&key=AIzaSyCutRa7oVeMUmkQZkZRyPmnCrY17-qo-80";
+
         private string apiUrlForVideosDetails = "https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id="
             + "{0}"
             //+ "0ce22qhacyo,j8GU5hG-34I,_0aQJHoI1e8"
@@ -166,7 +172,7 @@ namespace JBC.ViewModels
                         FavoriteCount = statistics?.Value<int>("favoriteCount"),
                         CommentCount = statistics?.Value<int>("commentCount"),
 
-                        Tags = (from tag in snippet?.Value<JArray>("tags") select tag.ToString())?.ToList(),
+                        //Tags = (from tag in snippet?.Value<JArray>("tags") select tag.ToString())?.ToList(),
                     };
 
                     youtubeItems.Add(youtubeItem);

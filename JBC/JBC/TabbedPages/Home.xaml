@@ -6,10 +6,10 @@
     
     <AbsoluteLayout>
 
-        <Image x:Name="image" 
+        <!--<Image x:Name="image" 
                Aspect="AspectFill"
                AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
-               AbsoluteLayout.LayoutFlags="All"/>
+               AbsoluteLayout.LayoutFlags="All"/>-->
 
         <!--<BoxView Color="Aqua" 
                  WidthRequest="2" 
@@ -34,6 +34,7 @@
         </Label>
 
         <Label x:Name="WelcomeLabel" Margin="35" 
+               FontSize="14"
                AbsoluteLayout.LayoutBounds="0.5, 0.1"
                AbsoluteLayout.LayoutFlags="PositionProportional"
                FontFamily="SinkinSans"/>
@@ -67,8 +68,8 @@
             </Label.FontFamily>
         </Label>
 
-        <Label x:Name="Connectlabel" Margin="20"
-               FontFamily="SinkinSans"/>
+        <!--<Label x:Name="Connectlabel" Margin="20"
+               FontFamily="SinkinSans"/>-->
 
         <Button Image="FBlogo.png"
                 x:Name="btnFBlogo"
