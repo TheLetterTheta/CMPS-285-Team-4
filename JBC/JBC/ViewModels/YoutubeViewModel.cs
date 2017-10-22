@@ -171,7 +171,7 @@ namespace JBC.ViewModels
                         DislikeCount = statistics?.Value<int>("dislikeCount"),
                         FavoriteCount = statistics?.Value<int>("favoriteCount"),
                         CommentCount = statistics?.Value<int>("commentCount"),
-
+                        
                         //Tags = (from tag in snippet?.Value<JArray>("tags") select tag.ToString())?.ToList(),
                     };
 
