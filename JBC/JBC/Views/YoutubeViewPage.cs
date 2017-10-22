@@ -94,7 +94,7 @@ namespace JBC
                         Padding = new Thickness(5, 10),
                         Children =
                         {
-                            channelTitleLabel,
+                            //channelTitleLabel,
                             /*new StackLayout
                             {
                                 Orientation = StackOrientation.Horizontal,
@@ -139,7 +139,7 @@ namespace JBC
             
             Content = new StackLayout
             {
-                Padding = new Thickness(5, 10),
+                //Padding = new Thickness(5, 10),
                 Children =
                 {
                     //label,
