@@ -33,9 +33,9 @@
             </Label.FontFamily>
         </Label>
 
-        <Label x:Name="WelcomeLabel" Margin="35" 
+        <Label x:Name="WelcomeLabel" Margin="15" 
                FontSize="14"
-               AbsoluteLayout.LayoutBounds="0.5, 0.1"
+               AbsoluteLayout.LayoutBounds="0.5, 0.15"
                AbsoluteLayout.LayoutFlags="PositionProportional"
                FontFamily="SinkinSans"/>
        

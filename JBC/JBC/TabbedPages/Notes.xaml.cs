@@ -38,8 +38,8 @@ namespace JBC
                         loadPage = false;
                         eArg.Cancel = true;
                         var uri = new Uri(eArg.Url);
-                        await Navigation.PushAsync(new Notes_View(uri));
                         directoryView.Source = originSource;
+                        await Navigation.PushAsync(new Notes_View(uri));
                         loadPage = true;
                     }
 
