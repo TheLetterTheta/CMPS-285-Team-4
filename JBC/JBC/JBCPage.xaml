@@ -5,6 +5,10 @@
             x:Class="JBC.JBCPage"
             Title="Jerusalem Baptist Church">
 
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem x:Name="fontSetting" Icon="font.png" Activated="Handle_Activated" Order="Primary"/>
+    </TabbedPage.ToolbarItems>
+
     <local:Home Title="Home" Icon="home.png"/>
     <local:Notes Title="Notes" Icon="notes.png"/>
     <local:News Title="News" Icon="rss.png"/>

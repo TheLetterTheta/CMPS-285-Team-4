@@ -12,7 +12,7 @@ namespace JBC
         {
 
             Title = "Youtube";
-            BackgroundColor = Color.White;
+            BackgroundColor = Color.FromHex("#FFFFFF");
 
             var youtubeViewModel = new YoutubeViewModel();
 
@@ -121,7 +121,7 @@ namespace JBC
 
                          new StackLayout
                          {
-                            Padding = new Thickness(0,6),
+                            Padding = new Thickness(0,5),
                             Orientation = StackOrientation.Vertical,
                             Children =
                             {

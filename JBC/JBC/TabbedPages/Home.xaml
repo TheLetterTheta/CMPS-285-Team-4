@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="JBC.Home"
-             Padding="20, 0, 20, 0">
+             Padding="20, 5, 20, 0"
+             BackgroundColor="#FFFFFF">
     
-    <AbsoluteLayout>
+    <StackLayout>
 
         <!--<Image x:Name="image" 
                Aspect="AspectFill"
@@ -20,11 +21,9 @@
         -->
 
         <Label Text="Welcome" 
-               FontSize="Large" 
                HorizontalOptions="Center" 
                TextColor="Black"
-               AbsoluteLayout.LayoutBounds="0.5, 0.04" 
-               AbsoluteLayout.LayoutFlags="PositionProportional">
+               x:Name="Welcome">
             <Label.FontFamily> <!--How to customize font.-->
                 <OnPlatform x:TypeArguments="x:String">
                     <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
@@ -33,33 +32,25 @@
             </Label.FontFamily>
         </Label>
 
-        <Label x:Name="WelcomeLabel" Margin="15" 
-               FontSize="14"
-               AbsoluteLayout.LayoutBounds="0.5, 0.15"
-               AbsoluteLayout.LayoutFlags="PositionProportional"
+        <Label x:Name="WelcomeLabel"
+               Margin="15"
                FontFamily="SinkinSans"/>
        
         <Button Text="About Us" 
                 x:Name="btnAboutUs" 
                 BackgroundColor="#800000" 
                 TextColor="White"  
-                Clicked="AboutUs_Clicked" 
-                AbsoluteLayout.LayoutBounds="0.5, 0.6, 1, 0.075" 
-                AbsoluteLayout.LayoutFlags="All"/>
+                Clicked="AboutUs_Clicked"/>
 
         <Button Text="Location" 
                 BackgroundColor="#800000" 
                 TextColor="White"
-                Clicked="Location_Clicked"
-                AbsoluteLayout.LayoutBounds="0.5, 0.7, 1, 0.075" 
-                AbsoluteLayout.LayoutFlags="All"/>
+                Clicked="Location_Clicked"/>
 
         <Label Text="Connect With Us" 
                FontSize="Large" 
                HorizontalOptions="Center" 
-               TextColor="Black"
-               AbsoluteLayout.LayoutBounds="0.5, 0.8" 
-               AbsoluteLayout.LayoutFlags="PositionProportional">
+               TextColor="Black">
             <Label.FontFamily>
                 <OnPlatform x:TypeArguments="x:String">
                     <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
@@ -71,19 +62,23 @@
         <!--<Label x:Name="Connectlabel" Margin="20"
                FontFamily="SinkinSans"/>-->
 
-        <Button Image="FBlogo.png"
-                x:Name="btnFBlogo"
-                BackgroundColor="#3b5998"
-                Clicked="FBlogo_Clicked"
-                AbsoluteLayout.LayoutBounds="0.375, 0.925" 
-                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <AbsoluteLayout>
+            
+            <Button Image="FBlogo.png"
+                    x:Name="btnFBlogo"
+                    BackgroundColor="#3b5998"
+                    Clicked="FBlogo_Clicked"
+                    AbsoluteLayout.LayoutBounds="0.375, 0" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <Button Image="JBClogo.png"
-                x:Name="btnJBClogo"
-                BackgroundColor="#990000"
-                Clicked="JBClogo_Clicked"
-                AbsoluteLayout.LayoutBounds="0.625, 0.925" 
-                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Button Image="JBClogo.png"
+                    x:Name="btnJBClogo"
+                    BackgroundColor="#990000"
+                    Clicked="JBClogo_Clicked"
+                    AbsoluteLayout.LayoutBounds="0.625, 0" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        </AbsoluteLayout>
 
         <!--<Label Text="Hello Forms with XAML">
             <Label.FontFamily>
@@ -97,7 +92,7 @@
 
         <!-- <Label Text="SinkinSans" FontSize="25" HorizontalOptions="Center"/> -->
 
-    </AbsoluteLayout>
+    </StackLayout>
     
 </ContentPage>
 
