@@ -32,6 +32,7 @@ namespace JBC
                 {
                     TextColor = Color.Maroon,
                     FontSize = 22
+                        
                 };
                 var titleLabel = new Label
                 {
@@ -89,7 +90,7 @@ namespace JBC
 
                     View = new StackLayout
                     {
-                        Orientation = StackOrientation.Vertical,
+                        Orientation = StackOrientation.Horizontal,
                         BackgroundColor = Color.White,
                         Padding = new Thickness(5, 10),
                         Children =
@@ -115,11 +116,20 @@ namespace JBC
                                     commentCountLabel
                                 }
                             },*/
-                            titleLabel,
                             mediaImage,
-                            descriptionLabel,
-                        }
-                    }
+
+                         new StackLayout
+                         {
+                            Padding = new Thickness(0,6),
+                            Orientation = StackOrientation.Vertical,
+                            Children =
+                            {
+                               titleLabel,
+                               descriptionLabel
+                            }
+                         }
+                      }
+                   }
                 };
             });
 
@@ -151,6 +161,8 @@ namespace JBC
         private async void ListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
         {
             var youtubeItem = itemTappedEventArgs.Item as YoutubeItem;
+
+            BackgroundColor = Color.Gray; //Show which video is clicked
 
             var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
