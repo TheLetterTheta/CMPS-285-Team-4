@@ -71,8 +71,9 @@ namespace JBC
                 };*/
                 var mediaImage = new Image
                 {
-                    HeightRequest = 200,
-                    
+                    HeightRequest = 75,
+
+
                 };
 
                 channelTitleLabel.SetBinding(Label.TextProperty, new Binding("ChannelTitle"));
