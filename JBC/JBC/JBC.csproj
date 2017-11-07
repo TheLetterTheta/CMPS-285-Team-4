@@ -50,6 +50,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="FacebookClient.cs" />
+    <Compile Include="FacebookService.cs" />
+    <Compile Include="FacebookSettings.cs" />
     <Compile Include="Home Pages\AboutUs.xaml.cs">
       <DependentUpon>AboutUs.xaml</DependentUpon>
     </Compile>
