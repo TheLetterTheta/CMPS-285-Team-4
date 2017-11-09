@@ -2,15 +2,18 @@
 <ContentPage Title="About Us" 
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="JBC.AboutUs"
-             Padding="20, 0, 20, 0">
+             x:Class="JBC.AboutUs">
 
+        <ContentPage.ToolbarItems>
+            <ToolbarItem x:Name="fontSetting" Icon="fontSize.png" Activated="Handle_Activated" Order="Primary"/>
+        </ContentPage.ToolbarItems>
+    
        <ScrollView>
-        <StackLayout 
-            HorizontalOptions="CenterAndExpand">
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     Padding="20, 10, 20, 5">
 
-            <Label Text="About Us" 
-                    FontSize="Large" 
+            <Label x:Name="AboutUsTitle"
+                    Text="About Us"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
@@ -34,12 +37,10 @@
                  HeightRequest="5"
                  HorizontalOptions="Fill" 
                  VerticalOptions="Center" 
-                 />
+             />
 
-
-
-            <Label Text="Find Us" 
-                    FontSize="35" 
+            <Label x:Name="FindUsLabel"
+                    Text="Find Us"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
@@ -53,7 +54,6 @@
             </Label>
 
             <Label x:Name="AddressLabel"
-                    FontSize="15"  
                     FontFamily="SinkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
@@ -66,29 +66,27 @@
                  />
 
 
-            <Label Text="Contact Us" 
-                    FontSize="35" 
+            <Label x:Name="ContactUsLabel"
+                    Text="Contact Us"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
-            <Label Text="Office Hours:"
-                    FontSize="15"
+            <Label x:Name="OfficeHoursTitle"
+                    Text="Office Hours:"
                     FontFamily="SimkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
             <Label x:Name="OfficeHoursLabel"
-                    FontSize="15"
                     FontFamily="SinkinSans"
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
             <Label x:Name="NumberLabel"
-                    FontSize="15"  
                     FontFamily="SinkinSans"
                     TextColor="Black"
                     VerticalTextAlignment="Center"
@@ -101,15 +99,14 @@
                  VerticalOptions="Center" 
                  />
 
-            <Label Text="Sermon Times" 
-                    FontSize="35"
+            <Label x:Name="TimesTitle"
+                    Text="Sermon Times"
                     FontFamily="SinkinSans" 
                     TextColor="Black"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
             <Label x:Name="TimesLabel"
-                    FontSize="15"
                     FontFamily="SinkinSans"
                     TextColor="Black" 
                     VerticalTextAlignment="Center"

@@ -210,6 +210,7 @@
     <AndroidResource Include="Resources\values-v21\styles.xml" />
     <AndroidResource Include="Resources\drawable\settings.png" />
     <AndroidResource Include="Resources\drawable\font.png" />
+    <AndroidResource Include="Resources\drawable\fontSize.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\jbcpcbackground.jpg" />

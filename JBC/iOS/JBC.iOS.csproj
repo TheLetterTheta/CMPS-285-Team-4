@@ -144,6 +144,8 @@
     <BundleResource Include="Resources\settings%402x.png" />
     <BundleResource Include="Resources\font.png" />
     <BundleResource Include="Resources\font%402x.png" />
+    <BundleResource Include="Resources\fontSize.png" />
+    <BundleResource Include="Resources\fontSize%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\FBlogo.png" />

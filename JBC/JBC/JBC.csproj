@@ -87,6 +87,7 @@
     <Compile Include="Views\YoutubeViewPage.xaml.cs">
       <DependentUpon>YoutubeViewPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FontButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Home Pages\Location.xaml">

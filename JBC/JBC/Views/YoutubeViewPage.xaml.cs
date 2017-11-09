@@ -31,19 +31,20 @@ namespace JBC
                 var channelTitleLabel = new Label
                 {
                     TextColor = Color.Maroon,
-                    FontSize = 22
+                    FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label))
 
                 };
                 var titleLabel = new Label
                 {
                     TextColor = Color.Black,
-                    FontSize = 16
+                    FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label))
                 };
                 var descriptionLabel = new Label
                 {
                     TextColor = Color.Gray,
-                    FontSize = 14
+                    FontSize = Device.GetNamedSize(FontButton.GetTextSize(-1), typeof(Label))
                 };
+
                 /*var viewCountLabel = new Label
                 {
                     TextColor = Color.FromHex("#0D47A1"),
@@ -71,10 +72,22 @@ namespace JBC
                 };*/
                 var mediaImage = new Image
                 {
-                    HeightRequest = 75,
 
+                    HeightRequest = GetImageHeight(FontButton.GetTextSize(0))
 
                 };
+
+                MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+
+                    channelTitleLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+                    titleLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+                    descriptionLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(-1), typeof(Label));
+
+                    mediaImage.HeightRequest = GetImageHeight(FontButton.GetTextSize(0));
+
+                });
 
                 channelTitleLabel.SetBinding(Label.TextProperty, new Binding("ChannelTitle"));
                 titleLabel.SetBinding(Label.TextProperty, new Binding("Title"));
@@ -86,7 +99,7 @@ namespace JBC
                 commentCountLabel.SetBinding(Label.TextProperty, new Binding("CommentCount", BindingMode.Default, null, null, "{0:n0} comments"));
                 favoriteCountLabel.SetBinding(Label.TextProperty, new Binding("FavoriteCount", BindingMode.Default, null, null, "{0:n0} favorite"));*/
 
-                return new ViewCell
+                var viewCell = new ViewCell
                 {
 
                     View = new StackLayout
@@ -132,6 +145,14 @@ namespace JBC
                       }
                     }
                 };
+
+                MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+
+                    viewCell.ForceUpdateSize();
+
+                });
+
+                return viewCell;
             });
 
             var listView = new ListView
@@ -139,6 +160,12 @@ namespace JBC
                 HasUnevenRows = true
 
             };
+
+           /* MessagingCenter.Subscribe<FontButton>(this, "Hi", (sender) => {
+
+                listView
+
+            });*/
 
             listView.SetBinding(ListView.ItemsSourceProperty, "YoutubeItems");
 
@@ -178,6 +205,39 @@ namespace JBC
 
             // You can use Plugin.Share nuget package to open video in browser
             //CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);
+        }
+
+        private int GetImageHeight(NamedSize textSize){
+
+            switch (textSize)
+            {
+
+                case NamedSize.Micro: return 50;
+
+                case NamedSize.Small: return 75;
+
+                case NamedSize.Medium: return 100;
+
+                default: return 75;
+
+            }
+
+        }
+
+        private int GetRowHeight(NamedSize textSize){
+
+            switch (textSize)
+            {
+                case NamedSize.Micro: return 75;
+
+                case NamedSize.Small: return 100;
+                   
+                case NamedSize.Medium: return 125;
+
+                default: return 100;
+
+            }
+
         }
     }
 }

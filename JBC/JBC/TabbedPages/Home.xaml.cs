@@ -11,17 +11,21 @@ namespace JBC
         {
             InitializeComponent();
 
-            Welcome.FontSize = Device.GetNamedSize(JBCPage.GetTextSize(1), typeof(Label));
+            Welcome.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
-            WelcomeLabel.FontSize = Device.GetNamedSize(JBCPage.GetTextSize(0), typeof(Label));
+            WelcomeLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            connectLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
             WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
 
-            MessagingCenter.Subscribe<JBCPage>(this, "Hi", (sender) => {
+            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
 
-                Welcome.FontSize = Device.GetNamedSize(JBCPage.GetTextSize(1), typeof(Label));
+                Welcome.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
-                WelcomeLabel.FontSize = Device.GetNamedSize(JBCPage.GetTextSize(0), typeof(Label));
+                WelcomeLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+                connectLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
             });
 

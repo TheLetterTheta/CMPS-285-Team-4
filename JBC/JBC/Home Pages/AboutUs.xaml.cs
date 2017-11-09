@@ -15,6 +15,11 @@ namespace JBC
         public AboutUs()
         {
             InitializeComponent();
+
+            fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize + 1].ToString();
+
+            SetAboutTextSize();
+
             AboutLabel.Text = "At Jerusalem Baptist Church, it’s our desire to be an open and welcoming place for community life and worship. " +
                 "We invite you to join us as we serve together for God’s glory. I believe that you’ll find Jerusalem Baptist Church to be a place where God is worshiped sincerely, Jesus Christ is preached triumphantly, " +
                 "His resurrection is celebrated joyously, the Gospel is shared unashamedly, and the Holy Spirit moves freely! I believe JBC is the place where you will find the help you need to overcome any physical obstacles, " +
@@ -26,5 +31,57 @@ namespace JBC
             NumberLabel.Text = "Phone: (225) 294-2001 \n Fax: (225) 294-2020";
             TimesLabel.Text = "Sunday: \n Sunday School at 9:15am \n Worship at 10:30am \n Adult Bible Study & Prayer at 6:00pm \n \nWednesday: \n Prayer Meeting at 6:30pm \n Youth Service at 6:30pm \n";
         }
+
+        /*void Handle_Activated(object sender, System.EventArgs e){
+
+            if (FontButton.currentSize == 2)
+            {
+                FontButton.currentSize = 0;
+            }
+            else
+            {
+                FontButton.currentSize += 1;
+            }
+
+            fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize + 1].ToString();
+
+            SetAboutTextSize();
+
+            MessagingCenter.Send(Application.Current, "Hi");
+
+        }*/
+
+        void Handle_Activated(object sender, System.EventArgs e){
+
+            FontButton.Handle_Activated();
+
+            SetAboutTextSize();
+
+        }
+
+        void SetAboutTextSize(){
+
+            AboutUsTitle.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+            AboutLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            FindUsLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+            AddressLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            ContactUsLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+            OfficeHoursTitle.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            OfficeHoursLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            NumberLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+            TimesTitle.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+            TimesLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+        }
+
     }
 }

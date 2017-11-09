@@ -5,15 +5,15 @@ namespace JBC
 {
     public partial class JBCPage : TabbedPage
     {
-        static NamedSize[] textSize = { NamedSize.Micro, NamedSize.Small, NamedSize.Medium, NamedSize.Large };
+        /*public static NamedSize[] textSize = { NamedSize.Micro, NamedSize.Small, NamedSize.Medium, NamedSize.Large };
 
-        static int currentSize = 2;
+        public static int currentSize = 1;*/
 
         public JBCPage()
         {
             InitializeComponent();
 
-            fontSetting.Text = "Font: " + textSize[currentSize].ToString();
+            fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize+1].ToString();
 
             //codebehind for making home page a navigation page...
 
@@ -28,28 +28,17 @@ namespace JBC
             //    BackgroundColor = Color.FromHex("#990000");
         }
 
-        void Handle_Activated(object sender, System.EventArgs e)
+        public void Handle_Activated(object sender, System.EventArgs e)
         {
 
-            if (currentSize == 2)
-            {
-                currentSize = 0;
-            }
-            else
-            {
-                currentSize += 1;
-            }
-
-            fontSetting.Text = "Font: " + textSize[currentSize].ToString();
-
-            MessagingCenter.Send<JBCPage>(this, "Hi");
+            FontButton.Handle_Activated();
         }
 
-        public static NamedSize GetTextSize(int offset)
+        /*public static NamedSize GetTextSize(int offset)
         {
-            if (currentSize + offset > 3)
+            if (currentSize + offset > 3 || FontButton.currentSize + offset < 0)
                 offset = 0;
             return textSize[currentSize + offset];
-        }
+        }*/
     }
 }
