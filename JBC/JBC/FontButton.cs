@@ -6,11 +6,30 @@ namespace JBC
 {
     public class FontButton : ContentPage
     {
-        public static NamedSize[] textSize = { NamedSize.Micro, NamedSize.Small, NamedSize.Medium, NamedSize.Large };
+        static NamedSize[] textSize = { NamedSize.Micro, NamedSize.Small, NamedSize.Medium, NamedSize.Large };
 
-        public static int currentSize = 1;
+        static int currentSize = 1;
 
-        public static void Handle_Activated()
+        public FontButton(Page page){
+
+            var fontSetting = new ToolbarItem
+            {
+
+                Icon = "fontSize.png",
+
+                Text = "Font: " + textSize[currentSize + 1].ToString(),
+
+                Order = ToolbarItemOrder.Primary,
+
+                Command = new Command(Handle_Activated)
+
+            };
+
+            page.ToolbarItems.Add(fontSetting);
+
+        }
+
+        void Handle_Activated()
         {
             if (currentSize == 2)
             {

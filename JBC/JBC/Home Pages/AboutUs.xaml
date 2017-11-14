@@ -4,9 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JBC.AboutUs">
 
-        <ContentPage.ToolbarItems>
+        <!--<ContentPage.ToolbarItems>
             <ToolbarItem x:Name="fontSetting" Icon="fontSize.png" Activated="Handle_Activated" Order="Primary"/>
-        </ContentPage.ToolbarItems>
+        </ContentPage.ToolbarItems>-->
     
        <ScrollView>
         <StackLayout HorizontalOptions="CenterAndExpand"
@@ -30,8 +30,7 @@
                     FontFamily="SinkinSans" 
                     TextColor="Black" />
 
-            <Image x:Name="Pastor"
-                    HeightRequest="125" />
+            <Image x:Name="Pastor"/>
 
             <BoxView Color="#800000" 
                  HeightRequest="5"

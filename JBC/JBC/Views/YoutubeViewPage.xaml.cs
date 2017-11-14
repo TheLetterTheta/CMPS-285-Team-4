@@ -161,12 +161,6 @@ namespace JBC
 
             };
 
-           /* MessagingCenter.Subscribe<FontButton>(this, "Hi", (sender) => {
-
-                listView
-
-            });*/
-
             listView.SetBinding(ListView.ItemsSourceProperty, "YoutubeItems");
 
             listView.ItemTemplate = dataTemplate;

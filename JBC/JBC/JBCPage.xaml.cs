@@ -13,7 +13,9 @@ namespace JBC
         {
             InitializeComponent();
 
-            fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize+1].ToString();
+            new FontButton(this);
+
+            //fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize+1].ToString();
 
             //codebehind for making home page a navigation page...
 
@@ -28,11 +30,11 @@ namespace JBC
             //    BackgroundColor = Color.FromHex("#990000");
         }
 
-        public void Handle_Activated(object sender, System.EventArgs e)
+        /*public void Handle_Activated(object sender, System.EventArgs e)
         {
 
             FontButton.Handle_Activated();
-        }
+        }*/
 
         /*public static NamedSize GetTextSize(int offset)
         {
