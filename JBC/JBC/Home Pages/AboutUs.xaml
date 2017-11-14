@@ -14,16 +14,17 @@
 
             <Label x:Name="AboutUsTitle"
                     Text="About Us"
+                    Font = "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center">
-                <Label.FontFamily>
+               <!-- <Label.FontFamily>
                 <OnPlatform x:TypeArguments="x:String">
                     <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                     <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                 </OnPlatform>
-                </Label.FontFamily>
+                </Label.FontFamily>-->
             </Label>
 
             <Label x:Name="AboutLabel"
@@ -40,16 +41,17 @@
 
             <Label x:Name="FindUsLabel"
                     Text="Find Us"
+                    Font = "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center">
-                <Label.FontFamily>
+                <!--<Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                         <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                     </OnPlatform>
-                </Label.FontFamily>
+                </Label.FontFamily>-->
             </Label>
 
             <Label x:Name="AddressLabel"
@@ -67,12 +69,14 @@
 
             <Label x:Name="ContactUsLabel"
                     Text="Contact Us"
+                    Font = "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
             <Label x:Name="OfficeHoursTitle"
+                    Font = "Bold"
                     Text="Office Hours:"
                     FontFamily="SimkinSans"
                     TextColor="Black"
@@ -99,6 +103,7 @@
                  />
 
             <Label x:Name="TimesTitle"
+                    Font = "Bold"
                     Text="Sermon Times"
                     FontFamily="SinkinSans" 
                     TextColor="Black"

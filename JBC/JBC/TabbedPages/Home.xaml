@@ -24,13 +24,15 @@
             <Label Text="Welcome" 
                    HorizontalOptions="Center" 
                    TextColor="Black"
+                   Font = "Bold"
+                   FontFamily="SinkinSans"
                    x:Name="Welcome">
-                <Label.FontFamily> <!--How to customize font.-->
+               <!-- <Label.FontFamily> 
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                         <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                     </OnPlatform>
-                </Label.FontFamily>
+                </Label.FontFamily> -->
             </Label>
 
             <Label x:Name="WelcomeLabel"
@@ -50,14 +52,16 @@
 
             <Label x:Name="connectLabel"
                    Text="Connect With Us"
+                   Font = "Bold"
+                   FontFamily="SinkinSans"
                    HorizontalOptions="Center" 
                    TextColor="Black">
-                <Label.FontFamily>
+                <!-- <Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                         <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                     </OnPlatform>
-                </Label.FontFamily>
+                </Label.FontFamily> -->
             </Label>
 
             <!--<Label x:Name="Connectlabel" Margin="20"
