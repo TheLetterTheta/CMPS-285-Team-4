@@ -101,7 +101,7 @@ namespace JBC
             };*/
 		}
 
-        void Handle_Navigated(object sender, WebNavigatedEventArgs e)
+        /*void Handle_Navigated(object sender, WebNavigatedEventArgs e)
         {
 
             String requireUrl = "http://jbcpc.org/sermon_notes/#";
@@ -129,6 +129,6 @@ namespace JBC
 
 			}
 
-        }
+        }*/
     }
 }

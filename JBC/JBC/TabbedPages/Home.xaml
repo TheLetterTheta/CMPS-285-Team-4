@@ -46,6 +46,7 @@
                     Clicked="AboutUs_Clicked"/>
 
             <Button Text="Location" 
+                    x:Name="btnLocation"
                     BackgroundColor="#800000" 
                     TextColor="White"
                     Clicked="Location_Clicked"/>
@@ -73,14 +74,14 @@
                         x:Name="btnFBlogo"
                         BackgroundColor="#3b5998"
                         Clicked="FBlogo_Clicked"
-                        AbsoluteLayout.LayoutBounds="0.375, 0" 
+                        AbsoluteLayout.LayoutBounds="0.380, 0" 
                         AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
                 <Button Image="JBClogo.png"
                         x:Name="btnJBClogo"
                         BackgroundColor="#990000"
                         Clicked="JBClogo_Clicked"
-                        AbsoluteLayout.LayoutBounds="0.625, 0" 
+                        AbsoluteLayout.LayoutBounds="0.620, 0" 
                         AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
             </AbsoluteLayout>

@@ -5,11 +5,55 @@ using Xamarin.Forms;
 
 namespace JBC
 {
+
     public partial class Home : ContentPage
     {
         public Home()
         {
             InitializeComponent();
+
+            WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
+
+            btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
+
+            btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
+
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                btnFBlogo.HeightRequest = 50;
+                btnFBlogo.WidthRequest = 50;
+                btnJBClogo.HeightRequest = 50;
+                btnJBClogo.WidthRequest = 50;
+            }
+            else
+            {
+                btnFBlogo.HeightRequest = 55;
+                btnFBlogo.WidthRequest = 55;
+                btnJBClogo.HeightRequest = 55;
+                btnJBClogo.WidthRequest = 55;
+            }
+
+            var btnHeight = 40;
+
+            setSizes(btnHeight);
+
+            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) =>
+            {
+
+                setSizes(btnHeight);
+
+                btnFBlogo.Scale = 1 + (FontButton.currentSize * 0.1);
+
+                btnJBClogo.Scale = 1 + (FontButton.currentSize * 0.1);
+
+            });
+
+            //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
+            //welcomeLabel.Text = "laldfhltjsldnflah";
+        }
+
+        void setSizes(int btnHeight)
+        {
 
             Welcome.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
@@ -17,38 +61,15 @@ namespace JBC
 
             connectLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
-            WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
+            btnAboutUs.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Button));
 
-            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+            btnLocation.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Button));
 
-                Welcome.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+            btnAboutUs.HeightRequest = btnHeight + (FontButton.currentSize * 5);
 
-                WelcomeLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+            btnLocation.HeightRequest = btnHeight + (FontButton.currentSize * 5);
 
-                connectLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
-
-            });
-
-
-            btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
-            btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
-            if(Device.RuntimePlatform == Device.iOS){
-                btnFBlogo.HeightRequest = 50;
-				btnFBlogo.WidthRequest = 50;
-				btnJBClogo.HeightRequest = 50;
-				btnJBClogo.WidthRequest = 50;
-            }
-            else{
-                btnFBlogo.HeightRequest = 55;
-                btnFBlogo.WidthRequest = 55;
-                btnJBClogo.HeightRequest = 55;
-                btnJBClogo.WidthRequest = 55;
-            }
-
-            //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
-            //welcomeLabel.Text = "laldfhltjsldnflah";
         }
-        
 
         async void AboutUs_Clicked(object sender, EventArgs e)
         {
@@ -60,9 +81,10 @@ namespace JBC
 			await Navigation.PushAsync(new Location());
         }*/
 
-        async void Location_Clicked(object sender, EventArgs e){
-			
-			var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+        async void Location_Clicked(object sender, EventArgs e)
+        {
+
+            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
             if (answer)
             {
@@ -83,7 +105,7 @@ namespace JBC
 
         async void FBlogo_Clicked(object sender, EventArgs e)
         {
-			var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
             if (answer)
             {
@@ -94,7 +116,7 @@ namespace JBC
 
         async void JBClogo_Clicked(object sender, EventArgs e)
         {
-			var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
             if (answer)
             {

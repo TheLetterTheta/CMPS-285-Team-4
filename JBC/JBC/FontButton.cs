@@ -8,7 +8,7 @@ namespace JBC
     {
         static NamedSize[] textSize = { NamedSize.Micro, NamedSize.Small, NamedSize.Medium, NamedSize.Large };
 
-        static int currentSize = 1;
+        public static int currentSize = (Application.Current.Properties.ContainsKey("FontSize") ? Int32.Parse(Application.Current.Properties["FontSize"].ToString()) : 1);
 
         public FontButton(Page page){
 
@@ -41,6 +41,8 @@ namespace JBC
             }
 
             MessagingCenter.Send(Application.Current, "Hi");
+
+            Application.Current.Properties["FontSize"] = currentSize;
         }
 
         public static NamedSize GetTextSize(int offset)
