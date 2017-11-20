@@ -9,5 +9,5 @@
             iOS="0, 20, 0, 0"/>
     </ContentPage.Padding>
 
-    <Label Text="More content will be added soon..."/>
+ 
 </ContentPage>

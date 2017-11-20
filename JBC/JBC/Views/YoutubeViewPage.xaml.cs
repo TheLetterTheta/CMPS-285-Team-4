@@ -139,7 +139,7 @@ namespace JBC
                             Children =
                             {
                                titleLabel,
-                               descriptionLabel
+                               //descriptionLabel
                             }
                          }
                       }
@@ -191,7 +191,7 @@ namespace JBC
             BackgroundColor = Color.Gray; //Show which video is clicked
             
 
-            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Hey!", "We're taking you to the Youtube App! \n Do you want to continue?", "Yes", "No");
 
             if (answer)
                 Device.OpenUri(new Uri("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId));

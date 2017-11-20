@@ -1,12 +1,195 @@
-﻿using Xamarin.Forms;
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace JBC
 {
     public partial class News : ContentPage
     {
+        //public ObservableCollection<Data> AccountItems = new ObservableCollection<Data>();
         public News()
         {
+            /*
+            FacebookViewModel fbItems = new FacebookViewModel();
+            BindingContext = fbItems;
             InitializeComponent();
+
+            var itemsListView = new ListView();
+            itemsListView.ItemsSource = fbItems;
+            Content = itemsListView;
+            
+
+            /*
+            ButtonGetItems.Clicked += async (sender, e) =>
+            {
+                ButtonGetItems.IsEnabled = false;
+                GetAccountItemsAsync();
+                ButtonGetItems.IsEnabled = true;
+            };*//*
         }
+    }
+}
+   */
+            var facebookViewModel = new FacebookViewModel();
+
+            BindingContext = facebookViewModel;
+
+            var dataTemplate = new DataTemplate(() =>
+            {
+                var messageLabel = new Label
+                {
+                    TextColor = Color.Black,
+                    FontSize = 16,
+
+                };
+                /*var created_timeLabel = new Label
+                {
+                    TextColor = Color.Black,
+                    FontSize = 14
+                };*/
+                var fbMediaImage = new Image
+                {
+                    HeightRequest = 75,
+                    WidthRequest = 100
+
+                };
+
+
+                /*
+                var channelTitleLabel = new Label
+                {
+                    TextColor = Color.Maroon,
+                    FontSize = 22
+
+                };
+                var titleLabel = new Label
+                {
+                    TextColor = Color.Black,
+                    FontSize = 16
+                };
+                var descriptionLabel = new Label
+                {
+                    TextColor = Color.Gray,
+                    FontSize = 14
+                };*/
+
+
+                messageLabel.SetBinding(Label.TextProperty, new Binding("Message"));
+                //created_timeLabel.SetBinding(Label.TextProperty, new Binding("Created_Time", BindingMode.Default, null, null, "{0:MM-dd-yyy}"));
+                fbMediaImage.SetBinding(Image.SourceProperty, new Binding("Picture"));
+
+
+                return new ViewCell
+                {
+
+                    View = new StackLayout
+                    {
+
+                        Orientation = StackOrientation.Horizontal,
+                        BackgroundColor = Color.White,
+                        Padding = new Thickness(5, 10),
+                        Children =
+                        {
+                            fbMediaImage,
+                            
+                            
+                            //channelTitleLabel,
+                            /*new StackLayout
+                            {
+                                Orientation = StackOrientation.Horizontal,
+                                Children =
+                                {
+                                    viewCountLabel,
+                                    likeCountLabel,
+                                    dislikeCountLabel,
+                                }
+                            },
+                            new StackLayout
+                            {
+                                Orientation = StackOrientation.Horizontal,
+                                TranslationY = -7,
+                                Children =
+                                {
+                                    favoriteCountLabel,
+                                    commentCountLabel
+                                }
+                            },
+                            mediaImage,*/
+
+                         new StackLayout
+                         {
+                            Padding = new Thickness(0,6),
+                            Orientation = StackOrientation.Vertical,
+
+                            Children =
+                            {
+
+                                 messageLabel,
+                                 //created_timeLabel,
+                               //titleLabel,
+                               //descriptionLabel
+                            }
+                         }
+
+
+
+                        }
+                    }
+                };
+
+
+            });
+            var listView = new ListView
+            {
+                HasUnevenRows = true
+
+            };
+
+            listView.SetBinding(ListView.ItemsSourceProperty, new Binding("FacebookItems"));
+
+            listView.ItemTemplate = dataTemplate;
+
+            listView.ItemTapped += ListViewOnItemTapped;
+
+            listView.SeparatorColor = Color.Gray;
+
+            listView.BackgroundColor = Color.White;
+
+
+            Content = new StackLayout
+            {
+                //Padding = new Thickness(5, 10),
+                Children =
+                {
+                    //label,
+                    listView
+                }
+            };
+
+
+        }
+
+        private async void ListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
+        {
+            var item = itemTappedEventArgs.Group as Data;
+
+            BackgroundColor = Color.Gray; //Show which video is clicked
+
+            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+
+            //if (answer) 
+            //Device.OpenUri(new Uri("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId));
+
+
+            // You can use Plugin.Share nuget package to open video in browser
+            //CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);
+        }
+
     }
 }
