@@ -13,6 +13,8 @@ namespace JBC
         {
             InitializeComponent();
 
+            Navigation.PushAsync(new TutorialPage());
+
             new FontButton(this);
 
             //fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize+1].ToString();
