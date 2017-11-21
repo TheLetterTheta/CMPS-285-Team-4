@@ -79,14 +79,14 @@
                             x:Name="btnFBlogo"
                             BackgroundColor="#3b5998"
                             Clicked="FBlogo_Clicked"
-                            AbsoluteLayout.LayoutBounds="0.380, 0" 
+                            AbsoluteLayout.LayoutBounds="0.370, 0" 
                             AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
                     <Button Image="JBClogo.png"
                             x:Name="btnJBClogo"
                             BackgroundColor="#990000"
                             Clicked="JBClogo_Clicked"
-                            AbsoluteLayout.LayoutBounds="0.620, 0" 
+                            AbsoluteLayout.LayoutBounds="0.630, 0" 
                             AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
                 </AbsoluteLayout>
