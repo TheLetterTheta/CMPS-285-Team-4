@@ -12,7 +12,6 @@ namespace JBC
         {
 
             Title = "Youtube";
-            BackgroundColor = Color.FromHex("#FFFFFF");
 
             var youtubeViewModel = new YoutubeViewModel();
 
@@ -77,7 +76,7 @@ namespace JBC
 
                 };
 
-                MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+                /*MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
 
                     channelTitleLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
 
@@ -87,7 +86,7 @@ namespace JBC
 
                     mediaImage.HeightRequest = GetImageHeight(FontButton.GetTextSize(0));
 
-                });
+                });*/
 
                 channelTitleLabel.SetBinding(Label.TextProperty, new Binding("ChannelTitle"));
                 titleLabel.SetBinding(Label.TextProperty, new Binding("Title"));
@@ -101,52 +100,72 @@ namespace JBC
 
                 var viewCell = new ViewCell
                 {
+                    View = new StackLayout{
 
-                    View = new StackLayout
-                    {
-                        Orientation = StackOrientation.Horizontal,
-                        BackgroundColor = Color.White,
-                        Padding = new Thickness(5, 10),
-                        Children =
-                        {
-                            //channelTitleLabel,
-                            /*new StackLayout
+                        Children = {
+                            new Frame
                             {
-                                Orientation = StackOrientation.Horizontal,
-                                Children =
+                                BackgroundColor = Color.FromHex("#FFFFFF"),
+                                CornerRadius = 2,
+                                HasShadow = false,
+                                Margin = new Thickness(10, 5, 10, 5),
+                                Content = new StackLayout
                                 {
-                                    viewCountLabel,
-                                    likeCountLabel,
-                                    dislikeCountLabel,
-                                }
-                            },
-                            new StackLayout
-                            {
-                                Orientation = StackOrientation.Horizontal,
-                                TranslationY = -7,
-                                Children =
-                                {
-                                    favoriteCountLabel,
-                                    commentCountLabel
-                                }
-                            },*/
-                            mediaImage,
+                                    VerticalOptions = LayoutOptions.Center,
+                                    Orientation = StackOrientation.Horizontal,
+                                    //Padding = new Thickness(0, 0, 0, 20),
+                                    Children =
+                                    {
+                                        //channelTitleLabel,
+                                        /*new StackLayout
+                                        {
+                                            Orientation = StackOrientation.Horizontal,
+                                            Children =
+                                            {
+                                                viewCountLabel,
+                                                likeCountLabel,
+                                                dislikeCountLabel,
+                                            }
+                                        },
+                                        new StackLayout
+                                        {
+                                            Orientation = StackOrientation.Horizontal,
+                                            TranslationY = -7,
+                                            Children =
+                                            {
+                                                favoriteCountLabel,
+                                                commentCountLabel
+                                            }
+                                        },*/
+                                        mediaImage,
 
-                         new StackLayout
-                         {
-                            Padding = new Thickness(0,5),
-                            Orientation = StackOrientation.Vertical,
-                            Children =
-                            {
-                               titleLabel,
-                               //descriptionLabel
+                                     new StackLayout
+                                     {
+                                        Padding = new Thickness(10, 0, 0, 0),
+                                        VerticalOptions = LayoutOptions.Center,
+                                        Orientation = StackOrientation.Vertical,
+                                        Children =
+                                        {
+                                           titleLabel,
+                                           descriptionLabel
+                                        }
+                                     }
+                                  }
+                                }
                             }
-                         }
-                      }
+                        }
                     }
                 };
 
                 MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+
+                    channelTitleLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));
+
+                    titleLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+                    descriptionLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(-1), typeof(Label));
+
+                    mediaImage.HeightRequest = GetImageHeight(FontButton.GetTextSize(0));
 
                     viewCell.ForceUpdateSize();
 
@@ -167,15 +186,16 @@ namespace JBC
 
             listView.ItemTapped += ListViewOnItemTapped;
 
-            listView.SeparatorColor = Color.Gray;
+            //listView.SeparatorColor = Color.Gray;
 
-            listView.BackgroundColor = Color.White;
+            listView.SeparatorVisibility = SeparatorVisibility.None;
 
-            
+            listView.BackgroundColor = Color.FromHex("#e6e6e6");
+
+
 
             Content = new StackLayout
             {
-                //Padding = new Thickness(5, 10),
                 Children =
                 {
                     //label,
@@ -188,10 +208,10 @@ namespace JBC
         {
             var youtubeItem = itemTappedEventArgs.Item as YoutubeItem;
 
-            BackgroundColor = Color.Gray; //Show which video is clicked
+            //BackgroundColor = Color.Gray; //Show which video is clicked
             
 
-            var answer = await DisplayAlert("Hey!", "We're taking you to the Youtube App! \n Do you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Hey!", "We're taking you to the Youtube app or website! \n Do you want to continue?", "Yes", "No");
 
             if (answer)
                 Device.OpenUri(new Uri("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId));
@@ -213,22 +233,6 @@ namespace JBC
                 case NamedSize.Medium: return 100;
 
                 default: return 75;
-
-            }
-
-        }
-
-        private int GetRowHeight(NamedSize textSize){
-
-            switch (textSize)
-            {
-                case NamedSize.Micro: return 75;
-
-                case NamedSize.Small: return 100;
-                   
-                case NamedSize.Medium: return 125;
-
-                default: return 100;
 
             }
 

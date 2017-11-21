@@ -45,7 +45,7 @@ namespace JBC
                 var messageLabel = new Label
                 {
                     TextColor = Color.Black,
-                    FontSize = 16,
+                    FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label))
 
                 };
                 /*var created_timeLabel = new Label
@@ -55,8 +55,8 @@ namespace JBC
                 };*/
                 var fbMediaImage = new Image
                 {
-                    HeightRequest = 75,
-                    WidthRequest = 100
+                    HeightRequest = GetImageHeight(FontButton.GetTextSize(0)),
+                    WidthRequest = GetImageHeight(FontButton.GetTextSize(0))
 
                 };
 
@@ -85,66 +85,60 @@ namespace JBC
                 fbMediaImage.SetBinding(Image.SourceProperty, new Binding("Picture"));
 
 
-                return new ViewCell
+                var viewCell =  new ViewCell
                 {
-
                     View = new StackLayout
                     {
-
-                        Orientation = StackOrientation.Horizontal,
-                        BackgroundColor = Color.White,
-                        Padding = new Thickness(5, 10),
-                        Children =
-                        {
-                            fbMediaImage,
-                            
-                            
-                            //channelTitleLabel,
-                            /*new StackLayout
+                        Children = {
+                            new Frame
                             {
-                                Orientation = StackOrientation.Horizontal,
-                                Children =
+                                BackgroundColor = Color.FromHex("#FFFFFF"),
+                                CornerRadius = 2,
+                                HasShadow = false,
+                                Margin = new Thickness(10, 5, 10, 5),
+                                Padding = new Thickness(20, 8, 20, 8),
+                                Content = new StackLayout
                                 {
-                                    viewCountLabel,
-                                    likeCountLabel,
-                                    dislikeCountLabel,
+                                    VerticalOptions = LayoutOptions.Center,
+                                    Orientation = StackOrientation.Horizontal,
+                                    //Padding = new Thickness(0, 10, 0, 10),
+                                    Children =
+                                    {
+                                        fbMediaImage,
+
+                                     new StackLayout
+                                     {
+                                        Padding = new Thickness(10, 0, 0, 0),
+                                        VerticalOptions = LayoutOptions.Center,
+                                        Orientation = StackOrientation.Vertical,
+                                        Children =
+                                        {
+                                            messageLabel
+                                        }
+                                     }
+                                  }
                                 }
-                            },
-                            new StackLayout
-                            {
-                                Orientation = StackOrientation.Horizontal,
-                                TranslationY = -7,
-                                Children =
-                                {
-                                    favoriteCountLabel,
-                                    commentCountLabel
-                                }
-                            },
-                            mediaImage,*/
-
-                         new StackLayout
-                         {
-                            Padding = new Thickness(0,6),
-                            Orientation = StackOrientation.Vertical,
-
-                            Children =
-                            {
-
-                                 messageLabel,
-                                 //created_timeLabel,
-                               //titleLabel,
-                               //descriptionLabel
                             }
-                         }
-
-
-
                         }
                     }
                 };
 
+                MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
+
+                    messageLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+                    fbMediaImage.HeightRequest = GetImageHeight(FontButton.GetTextSize(0));
+
+                    fbMediaImage.WidthRequest = GetImageHeight(FontButton.GetTextSize(0));
+
+                    viewCell.ForceUpdateSize();
+
+                });
+
+                return viewCell;
 
             });
+
             var listView = new ListView
             {
                 HasUnevenRows = true
@@ -155,11 +149,13 @@ namespace JBC
 
             listView.ItemTemplate = dataTemplate;
 
-            listView.ItemTapped += ListViewOnItemTapped;
+            //listView.ItemTapped += ListViewOnItemTapped;
 
-            listView.SeparatorColor = Color.Gray;
+            //listView.SeparatorColor = Color.Gray;
 
-            listView.BackgroundColor = Color.White;
+            listView.SeparatorVisibility = SeparatorVisibility.None;
+
+            listView.BackgroundColor = Color.FromHex("#e6e6e6");
 
 
             Content = new StackLayout
@@ -179,7 +175,7 @@ namespace JBC
         {
             var item = itemTappedEventArgs.Group as Data;
 
-            BackgroundColor = Color.Gray; //Show which video is clicked
+            //BackgroundColor = Color.Gray; //Show which video is clicked
 
             var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
@@ -189,6 +185,24 @@ namespace JBC
 
             // You can use Plugin.Share nuget package to open video in browser
             //CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);
+        }
+
+        private double GetImageHeight(NamedSize textSize)
+        {
+
+            switch (textSize)
+            {
+
+                case NamedSize.Micro: return 75;
+
+                case NamedSize.Small: return 100;
+
+                case NamedSize.Medium: return 125;
+
+                default: return 100;
+
+            }
+
         }
 
     }
