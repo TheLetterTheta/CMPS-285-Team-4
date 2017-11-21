@@ -9,13 +9,19 @@ namespace JBC
 
         public static int currentSize = 1;*/
 
+        private static bool tutorialBool = (Application.Current.Properties.ContainsKey("TutBool") ? Boolean.Parse(Application.Current.Properties["TutBool"].ToString()) : true);
+
         public JBCPage()
         {
             InitializeComponent();
 
-            Navigation.PushAsync(new TutorialPage());
-
             new FontButton(this);
+
+            if(tutorialBool){
+
+                Navigation.PushAsync(new TutorialPage());
+
+            }
 
             //fontSetting.Text = "Font: " + FontButton.textSize[FontButton.currentSize+1].ToString();
 
@@ -30,6 +36,18 @@ namespace JBC
             //    BarBackgroundColor = Color.White;
             //else
             //    BackgroundColor = Color.FromHex("#990000");
+        }
+
+        public static bool GetTutorialBool()
+        {
+            return tutorialBool;
+        }
+
+        public static void SetTutorialBool(bool newTutBool)
+        {
+            tutorialBool = newTutBool;
+
+            Application.Current.Properties["TutBool"] = tutorialBool;
         }
 
         /*public void Handle_Activated(object sender, System.EventArgs e)

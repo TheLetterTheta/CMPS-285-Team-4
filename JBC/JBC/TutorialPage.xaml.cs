@@ -35,6 +35,8 @@ namespace JBC
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PopAsync();
+
+            JBCPage.SetTutorialBool(false);
         }
     }
 }
