@@ -241,6 +241,8 @@
     <AndroidResource Include="Resources\drawable\logo.png" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
     <AndroidResource Include="Resources\drawable\DroidTabs.png" />
+    <AndroidResource Include="Resources\drawable\information.png" />
+    <AndroidResource Include="Resources\drawable\help.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\jbcpcbackground.jpg" />

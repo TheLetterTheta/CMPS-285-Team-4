@@ -14,9 +14,9 @@ namespace JBC
 
             WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
 
-            btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
+            //btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
 
-            btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
+            //btnJBClogo.Image = (FileImageSource)ImageSource.FromFile("JBClogo.png");
 
             if (Device.RuntimePlatform == Device.iOS)
             {
@@ -31,7 +31,11 @@ namespace JBC
                 btnFBlogo.WidthRequest = 55;
                 btnJBClogo.HeightRequest = 55;
                 btnJBClogo.WidthRequest = 55;
+                btnTutorial.IsVisible = false;
             }
+
+            btnTutorial.HeightRequest = 18;
+            btnTutorial.WidthRequest = 18;
 
             var btnHeight = 40;
 
@@ -123,6 +127,11 @@ namespace JBC
                 //code to go to JBC website here
                 Device.OpenUri(new Uri("http://jbcpc.org"));
             }
+        }
+
+        async void Tutorial_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TutorialPage());
         }
     }
 }

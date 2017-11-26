@@ -148,6 +148,8 @@
     <BundleResource Include="Resources\fontSize%402x.png" />
     <BundleResource Include="Resources\logo.png" />
     <BundleResource Include="Resources\iOSTabs.png" />
+    <BundleResource Include="Resources\information.png" />
+    <BundleResource Include="Resources\help.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\FBlogo.png" />

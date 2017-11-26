@@ -100,7 +100,8 @@ namespace JBC
 
                 var viewCell = new ViewCell
                 {
-                    View = new StackLayout{
+                    View = new StackLayout
+                    {
                         BackgroundColor = Color.FromHex("#e6e6e6"),
                         Children = {
                             new Frame

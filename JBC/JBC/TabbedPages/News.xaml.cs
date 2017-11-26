@@ -89,7 +89,7 @@ namespace JBC
                 {
                     View = new StackLayout
                     {
-                        BackgroundColor = Color.FromHex("#e6e6e6"),
+                        BackgroundColor= Color.FromHex("#e6e6e6"),
                         Children = {
                             new Frame
                             {

@@ -17,6 +17,20 @@ namespace JBC
 
             new FontButton(this);
 
+            if(Device.RuntimePlatform == Device.Android)
+            {
+                this.ToolbarItems.Add(new ToolbarItem()
+                {
+                    Icon = "help.png",
+
+                    Text = "Help",
+
+                    Order = ToolbarItemOrder.Secondary,
+
+                    Command = new Command(Tutorial_Button)
+                });
+            }
+
             if(tutorialBool){
 
                 Navigation.PushAsync(new TutorialPage());
@@ -48,6 +62,11 @@ namespace JBC
             tutorialBool = newTutBool;
 
             Application.Current.Properties["TutBool"] = tutorialBool;
+        }
+
+        void Tutorial_Button()
+        {
+            Navigation.PushAsync(new TutorialPage());
         }
 
         /*public void Handle_Activated(object sender, System.EventArgs e)

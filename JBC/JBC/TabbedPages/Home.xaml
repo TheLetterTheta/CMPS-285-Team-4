@@ -11,7 +11,29 @@
                CornerRadius= "2"
                HasShadow= "false">
 
-            <StackLayout Padding="5, 5, 5, 5">
+            <StackLayout>
+
+                <AbsoluteLayout>
+
+                    <Label Text="Welcome" 
+                           HorizontalOptions="Center" 
+                           TextColor="Black"
+                           Font= "Bold"
+                           FontFamily="SinkinSans"
+                           x:Name="Welcome"
+                           AbsoluteLayout.LayoutBounds="0.5, 0"
+                           AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    
+                    <Button Image="help.png"
+                            x:Name="btnTutorial"
+                            Clicked="Tutorial_Clicked"
+                            BackgroundColor="Transparent"
+                            Opacity="0.5"
+                            HorizontalOptions="End"
+                            AbsoluteLayout.LayoutBounds="1, 0" 
+                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+                </AbsoluteLayout>
 
                 <!--<Image x:Name="image" 
                        Aspect="AspectFill"
@@ -25,83 +47,80 @@
                          AbsoluteLayout.LayoutBounds="0, 0.7, 1, 1" 
                          AbsoluteLayout.LayoutFlags="All"/>
                 -->
-
-                <Label Text="Welcome" 
-                       HorizontalOptions="Center" 
-                       TextColor="Black"
-                       Font= "Bold"
-                       FontFamily="SinkinSans"
-                       x:Name="Welcome">
+                
                    <!-- <Label.FontFamily> 
                         <OnPlatform x:TypeArguments="x:String">
                             <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                             <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                         </OnPlatform>
                     </Label.FontFamily> -->
-                </Label>
 
-                <Label x:Name="WelcomeLabel"
-                       Margin="10"
-                       FontFamily="SinkinSans"/>
-               
-                <Button Text="About Us" 
-                        x:Name="btnAboutUs" 
-                        BackgroundColor="#800000" 
-                        TextColor="White"  
-                        Clicked="AboutUs_Clicked"/>
+                <StackLayout Padding="5, 5, 5, 5">
 
-                <Button Text="Location" 
-                        x:Name="btnLocation"
-                        BackgroundColor="#800000" 
-                        TextColor="White"
-                        Clicked="Location_Clicked"/>
+                    <Label x:Name="WelcomeLabel"
+                           Margin="10"
+                           FontFamily="SinkinSans"/>
+                   
+                    <Button Text="About Us" 
+                            x:Name="btnAboutUs" 
+                            BackgroundColor="#800000" 
+                            TextColor="White"  
+                            Clicked="AboutUs_Clicked"/>
 
-                <Label x:Name="connectLabel"
-                       Text="Connect With Us"
-                       Font= "Bold"
-                       FontFamily="SinkinSans"
-                       HorizontalOptions="Center" 
-                       TextColor="Black">
-                    <!-- <Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
-                            <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
-                        </OnPlatform>
-                    </Label.FontFamily> -->
-                </Label>
+                    <Button Text="Location" 
+                            x:Name="btnLocation"
+                            BackgroundColor="#800000" 
+                            TextColor="White"
+                            Clicked="Location_Clicked"/>
 
-                <!--<Label x:Name="Connectlabel" Margin="20"
-                       FontFamily="SinkinSans"/>-->
+                    <Label x:Name="connectLabel"
+                           Text="Connect With Us"
+                           Font= "Bold"
+                           FontFamily="SinkinSans"
+                           HorizontalOptions="Center" 
+                           TextColor="Black">
+                        <!-- <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
+                                <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
+                            </OnPlatform>
+                        </Label.FontFamily> -->
+                    </Label>
 
-                <AbsoluteLayout>
-                    
-                    <Button Image="FBlogo.png"
-                            x:Name="btnFBlogo"
-                            BackgroundColor="#3b5998"
-                            Clicked="FBlogo_Clicked"
-                            AbsoluteLayout.LayoutBounds="0.370, 0" 
-                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    <!--<Label x:Name="Connectlabel" Margin="20"
+                           FontFamily="SinkinSans"/>-->
 
-                    <Button Image="JBClogo.png"
-                            x:Name="btnJBClogo"
-                            BackgroundColor="#990000"
-                            Clicked="JBClogo_Clicked"
-                            AbsoluteLayout.LayoutBounds="0.630, 0" 
-                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                    <AbsoluteLayout>
+                        
+                        <Button Image="FBlogo.png"
+                                x:Name="btnFBlogo"
+                                BackgroundColor="#3b5998"
+                                Clicked="FBlogo_Clicked"
+                                AbsoluteLayout.LayoutBounds="0.370, 0" 
+                                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-                </AbsoluteLayout>
+                        <Button Image="JBClogo.png"
+                                x:Name="btnJBClogo"
+                                BackgroundColor="#990000"
+                                Clicked="JBClogo_Clicked"
+                                AbsoluteLayout.LayoutBounds="0.630, 0" 
+                                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-                <!--<Label Text="Hello Forms with XAML">
-                    <Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-                            <OnPlatform.iOS>SinkinSans</OnPlatform.iOS>
-                            <OnPlatform.Android>SinkinSans.ttf#SinkinSans</OnPlatform.Android>
-                        </OnPlatform>
-                    </Label.FontFamily>
-                </Label>
-                -->
+                    </AbsoluteLayout>
 
-                <!-- <Label Text="SinkinSans" FontSize="25" HorizontalOptions="Center"/> -->
+                    <!--<Label Text="Hello Forms with XAML">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <OnPlatform.iOS>SinkinSans</OnPlatform.iOS>
+                                <OnPlatform.Android>SinkinSans.ttf#SinkinSans</OnPlatform.Android>
+                            </OnPlatform>
+                        </Label.FontFamily>
+                    </Label>
+                    -->
+
+                    <!-- <Label Text="SinkinSans" FontSize="25" HorizontalOptions="Center"/> -->
+
+                </StackLayout>
 
             </StackLayout>
 
