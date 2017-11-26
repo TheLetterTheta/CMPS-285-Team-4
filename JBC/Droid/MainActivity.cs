@@ -29,8 +29,8 @@ namespace JBC.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            var token = new AccessToken($"119750732037000|8d7508c4f936eb4d70f1e198f194a21f", "119750732037000", "165257200173818", null, null, null, null, null);
-            var client = new FacebookClient($"119750732037000|8d7508c4f936eb4d70f1e198f194a21f");
+            //var token = new AccessToken($"119750732037000|8d7508c4f936eb4d70f1e198f194a21f", "119750732037000", "165257200173818", null, null, null, null, null);
+            //var client = new FacebookClient($"119750732037000|8d7508c4f936eb4d70f1e198f194a21f");
 
 
             global::Xamarin.Forms.Forms.Init(this, bundle);

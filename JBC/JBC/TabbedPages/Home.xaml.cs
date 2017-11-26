@@ -84,7 +84,7 @@ namespace JBC
         async void Location_Clicked(object sender, EventArgs e)
         {
 
-            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Leaving App!", "You're about to leave the JBC App to go to an outside site. Continue?", "Yes", "No");
 
             if (answer)
             {
@@ -105,7 +105,7 @@ namespace JBC
 
         async void FBlogo_Clicked(object sender, EventArgs e)
         {
-            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Leaving App!", "You're about to leave the JBC App to go to an outside site. Continue?", "Yes", "No");
 
             if (answer)
             {
@@ -116,7 +116,7 @@ namespace JBC
 
         async void JBClogo_Clicked(object sender, EventArgs e)
         {
-            var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Leaving App!", "You're about to leave the JBC App to go to an outside site. Continue?", "Yes", "No");
 
             if (answer)
             {

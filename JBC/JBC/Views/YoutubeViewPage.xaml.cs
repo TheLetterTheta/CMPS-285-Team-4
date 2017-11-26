@@ -101,7 +101,7 @@ namespace JBC
                 var viewCell = new ViewCell
                 {
                     View = new StackLayout{
-
+                        BackgroundColor = Color.FromHex("#e6e6e6"),
                         Children = {
                             new Frame
                             {
@@ -211,7 +211,7 @@ namespace JBC
             //BackgroundColor = Color.Gray; //Show which video is clicked
             
 
-            var answer = await DisplayAlert("Hey!", "We're taking you to the Youtube app or website! \n Do you want to continue?", "Yes", "No");
+            var answer = await DisplayAlert("Leaving App!", "You're about to leave the JBC App to go to an outside site. Continue?", "Yes", "No");
 
             if (answer)
                 Device.OpenUri(new Uri("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId));

@@ -89,6 +89,7 @@ namespace JBC
                 {
                     View = new StackLayout
                     {
+                        BackgroundColor = Color.FromHex("#e6e6e6"),
                         Children = {
                             new Frame
                             {
@@ -156,6 +157,7 @@ namespace JBC
             listView.SeparatorVisibility = SeparatorVisibility.None;
 
             listView.BackgroundColor = Color.FromHex("#e6e6e6");
+            
 
 
             Content = new StackLayout
@@ -174,8 +176,9 @@ namespace JBC
         private async void ListViewOnItemTapped(object sender, ItemTappedEventArgs itemTappedEventArgs)
         {
             var item = itemTappedEventArgs.Group as Data;
+            
 
-            //BackgroundColor = Color.Gray; //Show which video is clicked
+            //Backgroundcolor = Color.Gray; //Show which video is clicked
 
             var answer = await DisplayAlert("Whoa!", "You're about to leave the JBC app.\nDo you want to continue?", "Yes", "No");
 
