@@ -23,21 +23,57 @@
                            HorizontalOptions="Center" 
                            TextColor="Black"
                            Font="Bold"/>
-                    <Image x:Name="TabsImage" Aspect="AspectFit"/>
+                    <!--Image x:Name="TabsImage" Aspect="AspectFit"/-->
                     <Label x:Name="Tabs"
                            VerticalOptions="Center"
                            HorizontalOptions="Center" 
                            TextColor="Black"
                            XAlign="Center"/>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                        <Label Text="Font Change Button"
-                           x:Name="FontChangeTitle"
-                           VerticalOptions="Center"
-                           HorizontalOptions="Center" 
-                           TextColor="Black"
-                           Font="Bold"/>
-                        <Image x:Name="FontImage" BackgroundColor="#990000" WidthRequest="45"/>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Start" Margin="0, 0, 0, 15">
+                        <Image x:Name="tutHome" Source="tutHome.jpg" Margin="0, 0, 10, 0"/>
+                        <Label x:Name="Home"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" 
+                               TextColor="Black"/>
                     </StackLayout>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Start" Margin="0, 0, 0, 15">
+                        <Image x:Name="tutNotes" Source="tutNotes.jpg" Margin="0, 0, 10, 0"/>
+                        <Label x:Name="Notes"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" 
+                               TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Start" Margin="0, 0, 0, 15">
+                        <Image x:Name="tutNews" Source="tutNews.jpg" Margin="0, 0, 10, 0"/>
+                        <Label x:Name="News"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" 
+                               TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Start">
+                        <Image x:Name="tutVideos" Source="tutVideos.jpg" Margin="0, 0, 10, 0"/>
+                        <Label x:Name="Videos"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" 
+                               TextColor="Black"/>
+                    </StackLayout>
+                    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0, 10, 0, 0">
+                        <AbsoluteLayout BackgroundColor="#990000"
+                                     x:Name="FontImageStack"
+                                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                                     AbsoluteLayout.LayoutBounds="0, 0.5"
+                                     Margin="5,0,0,0">
+                            <Image x:Name="FontImage" BackgroundColor="#990000" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0.5"/>
+                        </AbsoluteLayout>
+                        <StackLayout AbsoluteLayout.LayoutFlags="PositionProportional"
+                                     AbsoluteLayout.LayoutBounds="0.5, 0.5">
+                            <Label Text="Font Change Button"
+                                   x:Name="FontChangeTitle"
+                                   TextColor="Black"
+                                   Font="Bold"
+                                   XAlign="Center"/>
+                        </StackLayout>
+                    </AbsoluteLayout>
                     <Label x:Name="FontChange"
                            VerticalOptions="Center"
                            HorizontalOptions="Center" 

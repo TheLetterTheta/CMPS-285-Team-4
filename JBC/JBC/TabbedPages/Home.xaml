@@ -6,7 +6,7 @@
     
     <ScrollView>
 
-        <Frame Margin="10, 5, 10, 5"
+        <Frame Margin="10, 10, 10, 10"
                BackgroundColor= "#FFFFFF"
                CornerRadius= "2"
                HasShadow= "false">

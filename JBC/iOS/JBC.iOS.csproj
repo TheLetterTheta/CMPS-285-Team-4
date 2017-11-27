@@ -150,6 +150,10 @@
     <BundleResource Include="Resources\iOSTabs.png" />
     <BundleResource Include="Resources\information.png" />
     <BundleResource Include="Resources\help.png" />
+    <BundleResource Include="Resources\tutHome.jpg" />
+    <BundleResource Include="Resources\tutNews.jpg" />
+    <BundleResource Include="Resources\tutNotes.jpg" />
+    <BundleResource Include="Resources\tutVideos.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\FBlogo.png" />

@@ -35,9 +35,6 @@
     <EmbedAssembliesIntoApk>false</EmbedAssembliesIntoApk>
     <AndroidUseSharedRuntime>true</AndroidUseSharedRuntime>
     <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -224,7 +221,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
-    <AndroidResource Include="Resources\values\styles.xml"/>
+    <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
@@ -234,7 +231,7 @@
     <AndroidResource Include="Resources\drawable\notes.png" />
     <AndroidResource Include="Resources\drawable\rss.png" />
     <AndroidResource Include="Resources\drawable\videos.png" />
-    <AndroidResource Include="Resources\values-v21\styles.xml"/>
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
     <AndroidResource Include="Resources\drawable\settings.png" />
     <AndroidResource Include="Resources\drawable\font.png" />
     <AndroidResource Include="Resources\drawable\fontSize.png" />
@@ -243,6 +240,10 @@
     <AndroidResource Include="Resources\drawable\DroidTabs.png" />
     <AndroidResource Include="Resources\drawable\information.png" />
     <AndroidResource Include="Resources\drawable\help.png" />
+    <AndroidResource Include="Resources\drawable\tutHome.jpg" />
+    <AndroidResource Include="Resources\drawable\tutNotes.jpg" />
+    <AndroidResource Include="Resources\drawable\tutNews.jpg" />
+    <AndroidResource Include="Resources\drawable\tutVideos.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\jbcpcbackground.jpg" />
@@ -264,7 +265,7 @@
     </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Strings.xml"/>
+    <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets')" />

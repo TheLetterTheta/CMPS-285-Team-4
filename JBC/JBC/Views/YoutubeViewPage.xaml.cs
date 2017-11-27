@@ -10,6 +10,7 @@ namespace JBC
 
         public YoutubeViewPage()
         {
+            new FontButton(this);
 
             Title = "Youtube";
 

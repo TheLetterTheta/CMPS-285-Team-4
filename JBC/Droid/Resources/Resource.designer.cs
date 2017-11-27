@@ -2715,26 +2715,26 @@ namespace JBC.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020184
-			public const int avd_hide_password_1 = 2130837892;
+			// aapt resource value: 0x7f020188
+			public const int avd_hide_password_1 = 2130837896;
 			
-			// aapt resource value: 0x7f020185
-			public const int avd_hide_password_2 = 2130837893;
+			// aapt resource value: 0x7f020189
+			public const int avd_hide_password_2 = 2130837897;
 			
-			// aapt resource value: 0x7f020186
-			public const int avd_hide_password_3 = 2130837894;
+			// aapt resource value: 0x7f02018a
+			public const int avd_hide_password_3 = 2130837898;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020187
-			public const int avd_show_password_1 = 2130837895;
+			// aapt resource value: 0x7f02018b
+			public const int avd_show_password_1 = 2130837899;
 			
-			// aapt resource value: 0x7f020188
-			public const int avd_show_password_2 = 2130837896;
+			// aapt resource value: 0x7f02018c
+			public const int avd_show_password_2 = 2130837900;
 			
-			// aapt resource value: 0x7f020189
-			public const int avd_show_password_3 = 2130837897;
+			// aapt resource value: 0x7f02018d
+			public const int avd_show_password_3 = 2130837901;
 			
 			// aapt resource value: 0x7f020055
 			public const int com_facebook_auth_dialog_background = 2130837589;
@@ -3615,11 +3615,11 @@ namespace JBC.Droid
 			// aapt resource value: 0x7f020179
 			public const int notification_icon_background = 2130837881;
 			
-			// aapt resource value: 0x7f020182
-			public const int notification_template_icon_bg = 2130837890;
+			// aapt resource value: 0x7f020186
+			public const int notification_template_icon_bg = 2130837894;
 			
-			// aapt resource value: 0x7f020183
-			public const int notification_template_icon_low_bg = 2130837891;
+			// aapt resource value: 0x7f020187
+			public const int notification_template_icon_low_bg = 2130837895;
 			
 			// aapt resource value: 0x7f02017a
 			public const int notification_tile_bg = 2130837882;
@@ -3643,7 +3643,19 @@ namespace JBC.Droid
 			public const int tooltip_frame_light = 2130837888;
 			
 			// aapt resource value: 0x7f020181
-			public const int videos = 2130837889;
+			public const int tutHome = 2130837889;
+			
+			// aapt resource value: 0x7f020182
+			public const int tutNews = 2130837890;
+			
+			// aapt resource value: 0x7f020183
+			public const int tutNotes = 2130837891;
+			
+			// aapt resource value: 0x7f020184
+			public const int tutVideos = 2130837892;
+			
+			// aapt resource value: 0x7f020185
+			public const int videos = 2130837893;
 			
 			static Drawable()
 			{

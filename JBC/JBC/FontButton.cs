@@ -29,7 +29,7 @@ namespace JBC
 
         }
 
-        void Handle_Activated()
+        public static void Handle_Activated()
         {
             if (currentSize == 2)
             {

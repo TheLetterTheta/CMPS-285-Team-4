@@ -15,7 +15,7 @@ namespace JBC
         {
             InitializeComponent();
 
-            new FontButton(this);
+            //new FontButton(this);
 
             if(Device.RuntimePlatform == Device.Android)
             {

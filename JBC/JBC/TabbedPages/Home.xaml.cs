@@ -12,6 +12,8 @@ namespace JBC
         {
             InitializeComponent();
 
+            new FontButton(this);
+
             WelcomeLabel.Text = "\tYou will find that in this church, we cherish God's Word and our mission is to lead people into a growing relationship with Jesus Christ. We exist to serve God's purpose for our generation. \n\tWe are glad that you have chosen to visit our site, and we sincerely hope that God will move you to share your spiritual journey with us. If you are new in the community, let us be among the first to welcome you to your new home, and extend to you a hearty invitation to make this your church home.";
 
             //btnFBlogo.Image = (FileImageSource)ImageSource.FromFile("FBlogo.png");
@@ -41,16 +43,7 @@ namespace JBC
 
             setSizes(btnHeight);
 
-            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) =>
-            {
-
-                setSizes(btnHeight);
-
-                btnFBlogo.Scale = 1 + (FontButton.currentSize * 0.1);
-
-                btnJBClogo.Scale = 1 + (FontButton.currentSize * 0.1);
-
-            });
+            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => setSizes(btnHeight));
 
             //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
             //welcomeLabel.Text = "laldfhltjsldnflah";
@@ -72,6 +65,10 @@ namespace JBC
             btnAboutUs.HeightRequest = btnHeight + (FontButton.currentSize * 5);
 
             btnLocation.HeightRequest = btnHeight + (FontButton.currentSize * 5);
+
+            btnFBlogo.Scale = 1 + (FontButton.currentSize * 0.1);
+
+            btnJBClogo.Scale = 1 + (FontButton.currentSize * 0.1);
 
         }
 

@@ -14,7 +14,7 @@
 
             <Label x:Name="AboutUsTitle"
                     Text="About Us"
-                    Font = "Bold"
+                    Font= "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
@@ -36,23 +36,21 @@
             <BoxView Color="#800000" 
                  HeightRequest="5"
                  HorizontalOptions="Fill" 
-                 VerticalOptions="Center" 
-             />
+                 VerticalOptions="Center"/>
 
             <Label x:Name="FindUsLabel"
                     Text="Find Us"
-                    Font = "Bold"
+                    Font= "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center">
+                    HorizontalTextAlignment="Center"/>
                 <!--<Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String">
                         <OnPlatform.iOS>RaphLanokFuture</OnPlatform.iOS>
                         <OnPlatform.Android>RaphLanokFuture.ttf#RaphLanokFuture</OnPlatform.Android>
                     </OnPlatform>
                 </Label.FontFamily>-->
-            </Label>
 
             <Label x:Name="AddressLabel"
                     FontFamily="SinkinSans"
@@ -63,20 +61,24 @@
             <BoxView Color="#800000" 
                  HeightRequest="5"
                  HorizontalOptions="Fill" 
-                 VerticalOptions="Center" 
-                 />
-
+                 VerticalOptions="Center"/>
 
             <Label x:Name="ContactUsLabel"
                     Text="Contact Us"
-                    Font = "Bold"
+                    Font= "Bold"
                     FontFamily="SinkinSans" 
                     TextColor="Black" 
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
+            <Label x:Name="NumberLabel"
+                    FontFamily="SinkinSans"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"/>
+
             <Label x:Name="OfficeHoursTitle"
-                    Font = "Bold"
+                    Font= "Bold"
                     Text="Office Hours:"
                     FontFamily="SimkinSans"
                     TextColor="Black"
@@ -89,22 +91,14 @@
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"/>
 
-            <Label x:Name="NumberLabel"
-                    FontFamily="SinkinSans"
-                    TextColor="Black"
-                    VerticalTextAlignment="Center"
-                    HorizontalTextAlignment="Center"/>
-
-
             <BoxView Color="#800000" 
                  HeightRequest="5"
                  HorizontalOptions="Fill" 
-                 VerticalOptions="Center" 
-                 />
+                 VerticalOptions="Center"/>
 
             <Label x:Name="TimesTitle"
-                    Font = "Bold"
-                    Text="Sermon Times"
+                    Font= "Bold"
+                    Text="Service Times"
                     FontFamily="SinkinSans" 
                     TextColor="Black"
                     VerticalTextAlignment="Center"

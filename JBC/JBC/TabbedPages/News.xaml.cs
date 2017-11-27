@@ -15,6 +15,9 @@ namespace JBC
         //public ObservableCollection<Data> AccountItems = new ObservableCollection<Data>();
         public News()
         {
+            
+            new FontButton(this);
+
             /*
             FacebookViewModel fbItems = new FacebookViewModel();
             BindingContext = fbItems;
