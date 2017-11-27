@@ -35,9 +35,9 @@ namespace JBC
                 "I’d love to share with you more about how you can become a part of the JBC family! I look forward to meeting you and pray God’s richest blessings upon you! \n\nIn Christ’s service, \n Dr. Phil Weaver, pastor\n";
             Pastor.Source = ImageSource.FromResource("JBC.Images.Dr._Phil__Kim_Weaver.jpg");
             AddressLabel.Text = "11109 Jerusalem Baptist Church Road \n Hammond, Louisiana 70403";
-            OfficeHoursLabel.Text = "Monday-Thursday: \t 9:00am - 3:00pm" + "\n" + "(Lunch Break: " + "\t" + "12:00pm - 1:00pm)" + "\n" + "Friday: " + "\t" + "Closed" + "\n";
+            OfficeHoursLabel.Text = "Monday-Thursday: 9:00am - 4:00pm" + "\n" + "(Lunch Break: 12:00pm - 1:00pm)" + "\n" + "Friday: Closed" + "\n";
             NumberLabel.Text = "Phone: (225) 294-2001 \n Fax: (225) 294-2020";
-            TimesLabel.Text = "Sunday: \n Sunday School at 9:15am \n Worship at 10:30am \n Adult Bible Study & Prayer at 6:00pm \n \nWednesday Night Bible Study: \n Prayer Meeting at 6:30pm \n Youth Service at 6:30pm \n";
+            TimesLabel.Text = "Sunday: \n Sunday School (Bible Study) at 9:15am \n Worship Service at 10:30am and 6:30pm\n \nWednesday: \n Bible Study and Prayer Meeting at 6:30pm \n Youth Service at 6:30pm \n";
 
         }
 
