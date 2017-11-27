@@ -10,7 +10,8 @@
 
 namespace JBC {
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jbw716/Programming/285/CMPS-285-Team-4/JBC/JBC/App.xaml")]
+    
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Proxy-PC\\Documents\\GitHub\\CMPS-285-Team-4\\JBC\\JBC\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
