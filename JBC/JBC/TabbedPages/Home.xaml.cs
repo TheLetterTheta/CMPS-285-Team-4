@@ -41,15 +41,15 @@ namespace JBC
 
             var btnHeight = 40;
 
-            setSizes(btnHeight);
+            SetSizes(btnHeight);
 
-            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => setSizes(btnHeight));
+            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => SetSizes(btnHeight));
 
             //image.Source = ImageSource.FromResource("JBC.Images.jbcpcbackground.png");
             //welcomeLabel.Text = "laldfhltjsldnflah";
         }
 
-        void setSizes(int btnHeight)
+        void SetSizes(int btnHeight)
         {
 
             Welcome.FontSize = Device.GetNamedSize(FontButton.GetTextSize(1), typeof(Label));

@@ -28,8 +28,9 @@ namespace JBC
         public string Picture { get; set; }
         public string Message { get; set; }
 
-        //public string Created_Time { get; set; }
+        public string Created_Time { get; set; }
         public string Id { get; set; }
+
     }
 
     public class Paging

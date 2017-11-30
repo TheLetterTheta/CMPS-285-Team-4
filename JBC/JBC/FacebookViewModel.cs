@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Android.Net;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -161,24 +162,23 @@ namespace JBC
                 {
                     if (item.Message != null)
                     {
+                        /*
+                        var message = item.Message;
+                        var picture = item.Picture;
+                        var created_time = GetNewString(item.Created_Time);
+                        */
                         var fbItem = new Data
                         {
 
                             Message = item.Message,
-
-
                             Picture = item.Picture,
-                            //Created_Time = item.Created_Time,
-
-                            //postId.Add(item.Value<string>("picture"));
-                            //postId.Add(item.Value<JObject>("data")?.Value<string>("id"));
-                            //FacebookItems = await GetDataDetailsAsync(postId);
+                            Created_Time = GetNewString(item.Created_Time),
+                            
                         };
 
-                        postId.Add(item);
-                    }
-                    ;
-
+                        postId.Add(fbItem);
+                     
+                    };
                 };
                 //FacebookItems = await GetDataDetailsAsync(postId);
 
@@ -241,6 +241,19 @@ namespace JBC
             return facebookItems;
         }
         */
+
+        // The example displays the following output:
+        //       is
+        private string GetNewString(string s)         
+        {
+            String value = s;
+            int startIndex = 5;
+            int length = 5;
+            String substring = value.Substring(startIndex, length);
+            String datestring = "Date Posted: " + substring;
+            return datestring;
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

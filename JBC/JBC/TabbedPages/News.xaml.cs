@@ -51,11 +51,11 @@ namespace JBC
                     FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label))
 
                 };
-                /*var created_timeLabel = new Label
+                var created_timeLabel = new Label
                 {
-                    TextColor = Color.Black,
-                    FontSize = 14
-                };*/
+                    TextColor = Color.Gray,
+                    FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label))
+                };
                 var fbMediaImage = new Image
                 {
                     HeightRequest = GetImageHeight(FontButton.GetTextSize(0)),
@@ -84,7 +84,7 @@ namespace JBC
 
 
                 messageLabel.SetBinding(Label.TextProperty, new Binding("Message"));
-                //created_timeLabel.SetBinding(Label.TextProperty, new Binding("Created_Time", BindingMode.Default, null, null, "{0:MM-dd-yyy}"));
+                created_timeLabel.SetBinding(Label.TextProperty, new Binding("Created_Time"));
                 fbMediaImage.SetBinding(Image.SourceProperty, new Binding("Picture"));
 
 
@@ -117,7 +117,19 @@ namespace JBC
                                         Orientation = StackOrientation.Vertical,
                                         Children =
                                         {
-                                            messageLabel
+                                             
+                                             messageLabel,
+                                             new StackLayout
+                                             {
+                                                 HorizontalOptions = LayoutOptions.FillAndExpand,
+                                                 Orientation = StackOrientation.Vertical,
+                                                 Children =
+                                                 {
+                                                     created_timeLabel,
+                                                 }
+                                                 
+                                             }
+                                             
                                         }
                                      }
                                   }
@@ -130,6 +142,8 @@ namespace JBC
                 MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => {
 
                     messageLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
+
+                    created_timeLabel.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
 
                     fbMediaImage.HeightRequest = GetImageHeight(FontButton.GetTextSize(0));
 

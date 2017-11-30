@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using JBC.Models;
+using System.Diagnostics;
 
 namespace JBC.ViewModels
 {
@@ -93,6 +94,7 @@ namespace JBC.ViewModels
             }
             catch (Exception exception)
             {
+                Debug.WriteLine(exception);
             }
 
             return videoIds;
@@ -122,6 +124,7 @@ namespace JBC.ViewModels
             }
             catch (Exception exception)
             {
+                Debug.WriteLine(exception);
             }
 
             return videoIds;
@@ -182,7 +185,7 @@ namespace JBC.ViewModels
             }
             catch (Exception exception)
             {
-                
+                Debug.WriteLine(exception);
             }
             return youtubeItems;
         }

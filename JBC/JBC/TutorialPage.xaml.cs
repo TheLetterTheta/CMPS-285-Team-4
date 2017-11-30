@@ -30,9 +30,9 @@ namespace JBC
                 Tabs.IsVisible = false;
             }
 
-            setSizes();
+            SetSizes();
 
-            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => setSizes());
+            MessagingCenter.Subscribe<Application>(this, "Hi", (sender) => SetSizes());
 
             //FontImage.Source = ImageSource.FromResource("JBC.Images..jpg");
             FontImage.Source = ImageSource.FromFile("fontSize.png");
@@ -47,7 +47,7 @@ namespace JBC
 
             Thanks.Text = "\nThank you for downloading the Jerusalem Baptist Church Member Companion App!\n";
 
-            Tabs.Text = "Upon the dismissal of this tutorial you will see tabs located at the bottom of the app. These tabs will bring you between " +
+            Tabs.Text = "Upon the dismissal of this tutorial you will see tabs located at the top or bottom of the app. These tabs will bring you between " +
                         "the four main sections of the app detailed below: \n";
 
             Home.Text = "The Home tab takes you to the main hub where you can access the About Us page " +
@@ -64,7 +64,7 @@ namespace JBC
             Dismiss.Text = "Tap the dismiss button when you are ready to continue into the app.";
         }
 
-        void setSizes()
+        void SetSizes()
         {
 
             Thanks.FontSize = Device.GetNamedSize(FontButton.GetTextSize(0), typeof(Label));
